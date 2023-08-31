@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NFTCard renders correctly 1`] = `
+<div>
+  <div
+    class="css-18n9l0z"
+  >
+    <div
+      class="css-1oxm8tl"
+      role="group"
+    >
+      <div
+        class="css-ayvyu7"
+      >
+        <div
+          class="css-1s05vd5"
+          data-testid="onclick-button-0x0000000000-0"
+        >
+          <img
+            class="chakra-image css-gbtqvj"
+            src="https://ipfs.io/ipfs/bafybeietntip4sq3xmuwiz3s43yb3klrpa3okgtg5deysmbd5hbizhrb2q"
+          />
+        </div>
+      </div>
+      <div
+        class="css-13cp05h"
+      >
+        <h2
+          class="chakra-heading css-gdw5dm"
+        >
+          Test NFT
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+`;

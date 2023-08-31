@@ -1,0 +1,981 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly correctly nav items on desktop 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-18plroa"
+      >
+        <div
+          class="css-1vakep4"
+        >
+          <button
+            aria-label="Toggle Navigation"
+            class="chakra-button css-p7mkev"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon css-xwy4e8"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M.439,21.44a1.5,1.5,0,0,0,2.122,2.121L11.823,14.3a.25.25,0,0,1,.354,0l9.262,9.263a1.5,1.5,0,1,0,2.122-2.121L14.3,12.177a.25.25,0,0,1,0-.354l9.263-9.262A1.5,1.5,0,0,0,21.439.44L12.177,9.7a.25.25,0,0,1-.354,0L2.561.44A1.5,1.5,0,0,0,.439,2.561L9.7,11.823a.25.25,0,0,1,0,.354Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-1myw8bj"
+        >
+          <img
+            alt="Logo"
+            class="chakra-image css-18nqvg3"
+          />
+        </div>
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-ac0y6g"
+        >
+          <div
+            class="css-1en42kf"
+          >
+            <div
+              class="chakra-stack css-fhxiwe"
+            >
+              <div
+                class="css-0"
+              >
+                <a
+                  aria-controls="popover-content-:r3:"
+                  aria-expanded="false"
+                  aria-haspopup="dialog"
+                  class="chakra-link css-18kugcf"
+                  data-testid="label-Marketplace"
+                  href="#"
+                  id="popover-trigger-:r3:"
+                >
+                  Marketplace
+                </a>
+                <div
+                  class="chakra-popover__popper css-0"
+                  style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+                >
+                  <section
+                    class="chakra-popover__content css-18o08l2"
+                    id="popover-content-:r3:"
+                    role="tooltip"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95) translateZ(0);"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="chakra-stack css-8g8ihq"
+                    >
+                      <a
+                        class="chakra-link css-1gp0lg7"
+                        href="#"
+                        role="group"
+                      >
+                        <div
+                          class="chakra-stack css-1igwmid"
+                        >
+                          <div
+                            class="css-0"
+                          >
+                            <p
+                              class="chakra-text css-57zh0y"
+                              data-testid="childrenLabel-All NFTs"
+                            >
+                              All NFTs
+                            </p>
+                            <p
+                              class="chakra-text css-g5hezf"
+                              data-testid="childrenSubLabel-Discover all NFTs for sale"
+                            >
+                              Discover all NFTs for sale
+                            </p>
+                          </div>
+                          <div
+                            class="css-2gz105"
+                          >
+                            <svg
+                              class="chakra-icon chakra-icon css-bbvjbc"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                                fill="currentColor"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </a>
+                      <a
+                        class="chakra-link css-1gp0lg7"
+                        href="#"
+                        role="group"
+                      >
+                        <div
+                          class="chakra-stack css-1igwmid"
+                        >
+                          <div
+                            class="css-0"
+                          >
+                            <p
+                              class="chakra-text css-57zh0y"
+                              data-testid="childrenLabel-Auctions"
+                            >
+                              Auctions
+                            </p>
+                            <p
+                              class="chakra-text css-g5hezf"
+                              data-testid="childrenSubLabel-Try your luck on an auction"
+                            >
+                              Try your luck on an auction
+                            </p>
+                          </div>
+                          <div
+                            class="css-2gz105"
+                          >
+                            <svg
+                              class="chakra-icon chakra-icon css-bbvjbc"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                                fill="currentColor"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-u8znpl"
+        >
+          <div
+            class="chakra-stack css-1u5xrkq"
+          >
+            <div
+              class="css-1t6irk0"
+            />
+            <button
+              aria-label="Toggle Color Mode"
+              class="chakra-button css-1ke86mo"
+              data-testid="toggle-color-mode"
+              type="button"
+            >
+              <svg
+                data-testid="sunIcon"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="chakra-collapse"
+        style="overflow: hidden; display: block; opacity: 1; height: auto;"
+      >
+        <div
+          class="chakra-stack css-1gbq759"
+        >
+          <div
+            class="css-11viw07"
+          />
+          <div
+            class="chakra-stack css-1kkt86i"
+          >
+            <a
+              class="chakra-link css-q4j97j"
+              href="#"
+            >
+              <p
+                class="chakra-text css-y33gq0"
+                data-testid="labelMobile-Marketplace"
+              >
+                Marketplace
+              </p>
+              <svg
+                class="chakra-icon chakra-icon css-2ax23o"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <div
+              class="chakra-collapse"
+              style="overflow: hidden; display: none; opacity: 0; height: 0px;"
+            >
+              <div
+                class="chakra-stack css-hcix0d"
+              >
+                <a
+                  class="chakra-link css-o5g2qp"
+                  data-testid="childrenLabelMobile-All NFTs"
+                  href="#"
+                >
+                  All NFTs
+                </a>
+                <a
+                  class="chakra-link css-o5g2qp"
+                  data-testid="childrenLabelMobile-Auctions"
+                  href="#"
+                >
+                  Auctions
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header renders correctly correctly nav items on mobile 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-18plroa"
+      >
+        <div
+          class="css-1vakep4"
+        >
+          <button
+            aria-label="Toggle Navigation"
+            class="chakra-button css-p7mkev"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon css-xwy4e8"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M.439,21.44a1.5,1.5,0,0,0,2.122,2.121L11.823,14.3a.25.25,0,0,1,.354,0l9.262,9.263a1.5,1.5,0,1,0,2.122-2.121L14.3,12.177a.25.25,0,0,1,0-.354l9.263-9.262A1.5,1.5,0,0,0,21.439.44L12.177,9.7a.25.25,0,0,1-.354,0L2.561.44A1.5,1.5,0,0,0,.439,2.561L9.7,11.823a.25.25,0,0,1,0,.354Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-1myw8bj"
+        >
+          <div
+            class="css-11viw07"
+          >
+            <img
+              alt="Logo"
+              class="chakra-image css-15okvpc"
+            />
+          </div>
+        </div>
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-ac0y6g"
+        >
+          <div
+            class="css-1en42kf"
+          >
+            <div
+              class="chakra-stack css-fhxiwe"
+            >
+              <div
+                class="css-0"
+              >
+                <a
+                  aria-controls="popover-content-:r8:"
+                  aria-expanded="false"
+                  aria-haspopup="dialog"
+                  class="chakra-link css-18kugcf"
+                  data-testid="label-Marketplace"
+                  href="#"
+                  id="popover-trigger-:r8:"
+                >
+                  Marketplace
+                </a>
+                <div
+                  class="chakra-popover__popper css-0"
+                  style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+                >
+                  <section
+                    class="chakra-popover__content css-18o08l2"
+                    id="popover-content-:r8:"
+                    role="tooltip"
+                    style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95) translateZ(0);"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="chakra-stack css-8g8ihq"
+                    >
+                      <a
+                        class="chakra-link css-1gp0lg7"
+                        href="#"
+                        role="group"
+                      >
+                        <div
+                          class="chakra-stack css-1igwmid"
+                        >
+                          <div
+                            class="css-0"
+                          >
+                            <p
+                              class="chakra-text css-57zh0y"
+                              data-testid="childrenLabel-All NFTs"
+                            >
+                              All NFTs
+                            </p>
+                            <p
+                              class="chakra-text css-g5hezf"
+                              data-testid="childrenSubLabel-Discover all NFTs for sale"
+                            >
+                              Discover all NFTs for sale
+                            </p>
+                          </div>
+                          <div
+                            class="css-2gz105"
+                          >
+                            <svg
+                              class="chakra-icon chakra-icon css-bbvjbc"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                                fill="currentColor"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </a>
+                      <a
+                        class="chakra-link css-1gp0lg7"
+                        href="#"
+                        role="group"
+                      >
+                        <div
+                          class="chakra-stack css-1igwmid"
+                        >
+                          <div
+                            class="css-0"
+                          >
+                            <p
+                              class="chakra-text css-57zh0y"
+                              data-testid="childrenLabel-Auctions"
+                            >
+                              Auctions
+                            </p>
+                            <p
+                              class="chakra-text css-g5hezf"
+                              data-testid="childrenSubLabel-Try your luck on an auction"
+                            >
+                              Try your luck on an auction
+                            </p>
+                          </div>
+                          <div
+                            class="css-2gz105"
+                          >
+                            <svg
+                              class="chakra-icon chakra-icon css-bbvjbc"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                                fill="currentColor"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-u8znpl"
+        >
+          <div
+            class="chakra-stack css-1u5xrkq"
+          >
+            <div
+              class="css-1t6irk0"
+            />
+            <button
+              aria-label="Toggle Color Mode"
+              class="chakra-button css-1ke86mo"
+              data-testid="toggle-color-mode"
+              type="button"
+            >
+              <svg
+                data-testid="sunIcon"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="chakra-collapse"
+        style="overflow: hidden; display: block; opacity: 1; height: auto;"
+      >
+        <div
+          class="chakra-stack css-1gbq759"
+        >
+          <div
+            class="css-11viw07"
+          />
+          <div
+            class="chakra-stack css-1kkt86i"
+          >
+            <a
+              class="chakra-link css-q4j97j"
+              href="#"
+            >
+              <p
+                class="chakra-text css-y33gq0"
+                data-testid="labelMobile-Marketplace"
+              >
+                Marketplace
+              </p>
+              <svg
+                class="chakra-icon chakra-icon css-2ax23o"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <div
+              class="chakra-collapse"
+              style="overflow: hidden; display: none; opacity: 0; height: 0px;"
+            >
+              <div
+                class="chakra-stack css-hcix0d"
+              >
+                <a
+                  class="chakra-link css-o5g2qp"
+                  data-testid="childrenLabelMobile-All NFTs"
+                  href="#"
+                >
+                  All NFTs
+                </a>
+                <a
+                  class="chakra-link css-o5g2qp"
+                  data-testid="childrenLabelMobile-Auctions"
+                  href="#"
+                >
+                  Auctions
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header renders correctly correctly on desktop, connected 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-18plroa"
+      >
+        <div
+          class="css-1vakep4"
+        >
+          <button
+            aria-label="Toggle Navigation"
+            class="chakra-button css-p7mkev"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon css-1etxpkf"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-1myw8bj"
+        >
+          <img
+            alt="Logo"
+            class="chakra-image css-18nqvg3"
+          />
+        </div>
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-ac0y6g"
+        />
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-u8znpl"
+        >
+          <div
+            class="chakra-stack css-1u5xrkq"
+          >
+            <div
+              class="css-1t6irk0"
+            />
+            <div
+              data-testid="AdminButtonContent"
+            />
+            <div
+              class="css-0"
+            >
+              <button
+                aria-controls="popover-content-:rg:"
+                aria-expanded="false"
+                aria-haspopup="dialog"
+                aria-label="Account"
+                class="chakra-button css-1ke86mo"
+                data-testid="account-button"
+                id="popover-trigger-:rg:"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <button
+              aria-label="Toggle Color Mode"
+              class="chakra-button css-1ke86mo"
+              data-testid="toggle-color-mode"
+              type="button"
+            >
+              <svg
+                data-testid="sunIcon"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="chakra-collapse"
+        style="overflow: hidden; display: none; opacity: 0; height: 0px;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header renders correctly correctly on mobile, connected 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-18plroa"
+      >
+        <div
+          class="css-1vakep4"
+        >
+          <button
+            aria-label="Toggle Navigation"
+            class="chakra-button css-p7mkev"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon css-xwy4e8"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M.439,21.44a1.5,1.5,0,0,0,2.122,2.121L11.823,14.3a.25.25,0,0,1,.354,0l9.262,9.263a1.5,1.5,0,1,0,2.122-2.121L14.3,12.177a.25.25,0,0,1,0-.354l9.263-9.262A1.5,1.5,0,0,0,21.439.44L12.177,9.7a.25.25,0,0,1-.354,0L2.561.44A1.5,1.5,0,0,0,.439,2.561L9.7,11.823a.25.25,0,0,1,0,.354Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-1myw8bj"
+        >
+          <div
+            class="css-11viw07"
+          >
+            <img
+              alt="Logo"
+              class="chakra-image css-15okvpc"
+            />
+          </div>
+        </div>
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-ac0y6g"
+        />
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-u8znpl"
+        >
+          <div
+            class="chakra-stack css-1u5xrkq"
+          >
+            <div
+              class="css-1t6irk0"
+            />
+            <div
+              data-testid="AdminButtonContent"
+            />
+            <div
+              class="css-0"
+            >
+              <button
+                aria-controls="popover-content-:rd:"
+                aria-expanded="false"
+                aria-haspopup="dialog"
+                aria-label="Account"
+                class="chakra-button css-1ke86mo"
+                data-testid="account-button"
+                id="popover-trigger-:rd:"
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <button
+              aria-label="Toggle Color Mode"
+              class="chakra-button css-1ke86mo"
+              data-testid="toggle-color-mode"
+              type="button"
+            >
+              <svg
+                data-testid="sunIcon"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="chakra-collapse"
+        style="overflow: hidden; display: block; opacity: 1; height: auto;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header renders correctly on desktop, light mode 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-18plroa"
+      >
+        <div
+          class="css-1vakep4"
+        >
+          <button
+            aria-label="Toggle Navigation"
+            class="chakra-button css-p7mkev"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon css-1etxpkf"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-1myw8bj"
+        >
+          <img
+            alt="Logo"
+            class="chakra-image css-18nqvg3"
+          />
+        </div>
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-ac0y6g"
+        />
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-u8znpl"
+        >
+          <div
+            class="chakra-stack css-1u5xrkq"
+          >
+            <div
+              class="css-1t6irk0"
+            />
+            <button
+              aria-label="Toggle Color Mode"
+              class="chakra-button css-1ke86mo"
+              data-testid="toggle-color-mode"
+              type="button"
+            >
+              <svg
+                data-testid="moonIcon"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"
+                />
+                <path
+                  d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="chakra-collapse"
+        style="overflow: hidden; display: none; opacity: 0; height: 0px;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header renders correctly on mobile 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-0"
+    >
+      <div
+        class="css-18plroa"
+      >
+        <div
+          class="css-1vakep4"
+        >
+          <button
+            aria-label="Toggle Navigation"
+            class="chakra-button css-p7mkev"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="chakra-icon css-1etxpkf"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="css-1myw8bj"
+        >
+          <div
+            class="css-11viw07"
+          >
+            <img
+              alt="Logo"
+              class="chakra-image css-15okvpc"
+            />
+          </div>
+        </div>
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-ac0y6g"
+        />
+        <div
+          class="css-fjc8ae"
+        />
+        <div
+          class="css-u8znpl"
+        >
+          <div
+            class="chakra-stack css-1u5xrkq"
+          >
+            <div
+              class="css-1t6irk0"
+            />
+            <button
+              aria-label="Toggle Color Mode"
+              class="chakra-button css-1ke86mo"
+              data-testid="toggle-color-mode"
+              type="button"
+            >
+              <svg
+                data-testid="moonIcon"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"
+                />
+                <path
+                  d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="chakra-collapse"
+        style="overflow: hidden; display: none; opacity: 0; height: 0px;"
+      />
+    </div>
+  </div>
+</div>
+`;

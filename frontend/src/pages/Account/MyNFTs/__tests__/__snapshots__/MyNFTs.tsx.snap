@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyNFTs renders successfully with mocked data 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-b93e9j"
+    >
+      <div
+        data-testid="NFTOrCollectionViewer"
+      />
+    </div>
+    <div
+      class="css-19pekhg"
+    >
+      <p
+        class="chakra-text css-hz1u8i"
+      >
+        Do not see your NFTs?
+      </p>
+      <button
+        class="chakra-button css-ha7ah3"
+        data-testid="onClick-button"
+        style="white-space: initial;"
+        type="button"
+      >
+        Manage observed Collection
+      </button>
+    </div>
+  </div>
+</div>
+`;

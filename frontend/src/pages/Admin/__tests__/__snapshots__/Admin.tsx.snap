@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin should render the component 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-gmuwbf"
+    >
+      <h2
+        class="chakra-heading css-0"
+      >
+        Admin Page
+      </h2>
+    </div>
+    <div
+      class="css-serrfu"
+    >
+      <div
+        class="chakra-stack css-16f7yx3"
+      >
+        <h2
+          class="chakra-heading css-0"
+        >
+          Royalty
+        </h2>
+        <div
+          class="css-70qvj9"
+        >
+          <p
+            class="chakra-text css-uzgswy"
+          >
+            Royalty Value
+          </p>
+          <span
+            class="css-1qm7lvz"
+          >
+            0
+             %
+          </span>
+        </div>
+        <div
+          class="css-70qvj9"
+        >
+          <p
+            class="chakra-text css-uzgswy"
+          >
+            Marketplace balance
+          </p>
+          <span
+            class="css-1qm7lvz"
+          >
+            0
+             ETH
+          </span>
+        </div>
+        <div
+          class="css-70qvj9"
+        >
+          <p
+            class="chakra-text css-uzgswy"
+          >
+            New Royalty value (%)
+          </p>
+          <div
+            class="chakra-numberinput css-13t5rsu"
+          >
+            <input
+              aria-valuemax="100"
+              aria-valuemin="0"
+              aria-valuenow="0"
+              aria-valuetext="0.00"
+              autocomplete="off"
+              autocorrect="off"
+              class="chakra-numberinput__field css-fzwid6"
+              data-testid="input-royalty"
+              inputmode="decimal"
+              pattern="[0-9]*(.[0-9]+)?"
+              role="spinbutton"
+              type="text"
+              value="0.00"
+            />
+          </div>
+          <button
+            class="chakra-button css-79ap6m"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Change Royalty Value
+          </button>
+        </div>
+        <div
+          class="css-70qvj9"
+        >
+          <p
+            class="chakra-text css-uzgswy"
+          >
+            Withdraw
+          </p>
+          <button
+            class="chakra-button css-79ap6m"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Withdraw
+          </button>
+        </div>
+        <div
+          class="css-70qvj9"
+        >
+          <p
+            class="chakra-text css-uzgswy"
+          >
+            Withdraw To
+          </p>
+          <form
+            action="#"
+          >
+            <div
+              class="css-196weuw"
+            >
+              <div
+                class="css-97mn09"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <input
+                    class="chakra-input css-0"
+                    id="address"
+                    name="address"
+                    placeholder="to"
+                    value=""
+                  />
+                </div>
+              </div>
+              <button
+                class="chakra-button css-7x4044"
+                data-testid="onClick-button"
+                style="white-space: initial;"
+                type="submit"
+              >
+                Withdraw To
+              </button>
+            </div>
+          </form>
+        </div>
+        <div
+          class="css-70qvj9"
+        >
+          <p
+            class="chakra-text css-uzgswy"
+          >
+            Withdraw To Amount
+          </p>
+          <form
+            action="#"
+          >
+            <div
+              class="css-196weuw"
+            >
+              <div
+                class="css-97mn09"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <input
+                    class="chakra-input css-0"
+                    id="address"
+                    name="address"
+                    placeholder="to"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="css-b5ylti"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <div
+                    class="chakra-numberinput css-e69dqy"
+                  >
+                    <input
+                      aria-readonly="false"
+                      aria-required="false"
+                      aria-valuemax="0"
+                      aria-valuemin="0"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class="chakra-numberinput__field css-8atqhb"
+                      id="amount"
+                      inputmode="decimal"
+                      name="amount"
+                      pattern="[0-9]*(.[0-9]+)?"
+                      placeholder="Amount"
+                      role="spinbutton"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <button
+                class="chakra-button css-7x4044"
+                data-testid="onClick-button"
+                style="white-space: initial;"
+                type="submit"
+              >
+                Withdraw To Amount
+              </button>
+            </div>
+          </form>
+        </div>
+        <hr
+          aria-orientation="horizontal"
+          class="chakra-divider css-1upb9tn"
+        />
+      </div>
+      <div
+        class="chakra-stack css-1wag8h3"
+      >
+        <h2
+          class="chakra-heading css-0"
+        >
+          Maintenance
+        </h2>
+        <div
+          class="css-70qvj9"
+        >
+          <p
+            class="chakra-text css-uzgswy"
+          >
+            Clean Marketplace smartcontract storage (only token
+             
+            <b
+              class="chakra-text css-0"
+            >
+              not
+            </b>
+             for sale)
+          </p>
+          <button
+            class="chakra-button css-79ap6m"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Clean Storage
+          </button>
+        </div>
+        <div
+          class="css-70qvj9"
+        >
+          <p
+            class="chakra-text css-uzgswy"
+          >
+            Cancel sale
+          </p>
+          <div
+            class="chakra-select__wrapper css-he0br4"
+          >
+            <select
+              class="chakra-select css-1ik61og"
+              data-testid="select-sale"
+            />
+            <div
+              class="chakra-select__icon-wrapper css-162mkon"
+            >
+              <svg
+                aria-hidden="true"
+                class="chakra-select__icon"
+                focusable="false"
+                role="presentation"
+                style="width: 1em; height: 1em; color: currentColor;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+          <button
+            class="chakra-button css-79ap6m"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Cancel Sale
+          </button>
+        </div>
+        <hr
+          aria-orientation="horizontal"
+          class="chakra-divider css-1upb9tn"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

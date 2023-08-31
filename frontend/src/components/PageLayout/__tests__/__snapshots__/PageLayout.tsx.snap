@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageLayout renders correctly 1`] = `
+<div>
+  <div
+    class="css-1m0xqts"
+  >
+    <div
+      data-testid="HeaderContent"
+    />
+    <div
+      class="css-i9gxme"
+    >
+      <div
+        data-testid="children"
+      >
+        Children
+      </div>
+    </div>
+    <div
+      data-testid="Footer"
+    />
+  </div>
+</div>
+`;
+
+exports[`PageLayout renders correctly without footer 1`] = `
+<div>
+  <div
+    class="css-1m0xqts"
+  >
+    <div
+      data-testid="HeaderContent"
+    />
+    <div
+      class="css-i9gxme"
+    >
+      <div
+        data-testid="children"
+      >
+        Children
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PageLayout renders correctly without footer and header 1`] = `
+<div>
+  <div
+    class="css-1m0xqts"
+  >
+    <div
+      class="css-i9gxme"
+    >
+      <div
+        data-testid="children"
+      >
+        Children
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PageLayout renders correctly without header 1`] = `
+<div>
+  <div
+    class="css-1m0xqts"
+  >
+    <div
+      class="css-i9gxme"
+    >
+      <div
+        data-testid="children"
+      >
+        Children
+      </div>
+    </div>
+    <div
+      data-testid="Footer"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,189 @@
+\subsection{Ethereum}
+
+Una delle principali blockchain è Ethereum. Come Bitcoin e altre criptovalute, offre la possibilità di trasferire valute digitali. 
+Ad ogni modo, è capace di molto di più: è una tecnologia general purpose in grado di creare app e organizzazioni, detenere risorse e comunicare senza sottostare al controllo di un'autorità centrale. \cite{what-is-ethereum}
+
+Ethereum è stata lanciata nel 2015 e differisce da Bitcoin per la possibilità di essere programmabile. 
+È così possibile creare applicazioni decentralizzate chiamate Dapp mediante l'utilizzo di Smart Contract. Questi concetti saranno approfonditi più avanti nel documento. 
+
+La criptovaluta nativa di Ethereum è chiamata ether (ETH) e possiede le proprietà tradizionali legate a un token, come l'essere decentralizzata e trasparente, necessarie per creare sistemi di finanza decentralizzata (DeFi).
+Il modo più semplice per ottenere ETH è acquistarli tramite una delle molte piattaforme di scambio per criptovalute. \cite{what-is-ether}
+
+Ogni azione sulla rete di Ethereum richiede una certa quantità di potenza di calcolo.
+Questa commissione è pagata sotto forma di ether: ciò significa che serve almeno una piccola quantità di ETH per scrivere o modificare dei dati sulla rete, mentre l'operazione di lettura è priva di commissioni.
+
+Ethereum non sottostà al controllo di alcuna entità e si basa unicamente sulla cooperazione della sua community.
+Come altre blockchain, si basa su \textit{nodi}, sostituendo i tradizionali sistemi di server posseduti da grandi provider di Internet e servizi. Questa caratteristica di Ethereum rende l'infrastruttura estremamente resiliente, garantendo un altissima resistenza da attacchi. \cite{what-is-ethereum}
+
+In aggiunta ai nodi già analizzati nel capitolo \hyperref[sec:blockchain]{\textit{Blockchain}}, Ethereum ha un tipo di nodo supplementare chiamato \textit{Archive node} che mantiene una copia completa della blockchain e di tutti gli stati passati. Invece, i \textit{Full node} mantengono una copia completa della blockchain e unicamente gli stati più recenti. \cite{ethereum-nodes}
+
+Un'altra particolarità della blockchain Ethereum è la presenza di \textit{Ethereum Name Service (ENS)}. Questo permette di associare un nome leggibile (per esempio \textit{shopychange.eth}) ad un indirizzo Ethereum. Si tratta di un servizio molto simili al DNS, in quanto anch'esso lavora in una sistema gerarchico separato da punti. Il suo funzionamento è molto semplice, il registro ENS consiste in uno \hyperref[sec:smart-contract]{\textit{smart contract}} che mappa nomi di dominio a indirizzi Ethereum. \cite{ethereum-ens}
+
+\subsubsection{Da PoW a PoS, merge e sharing}
+Ethereum ha ufficialmente cambiato il proprio meccanismo di consenso distribuito il 15 settembre 2022 passando da PoW a PoS.
+Il \textit{merge} ha permesso ad Ethereum di eliminare il processo di mining così da poter realizzare la loro vision: più scalabilità, sicurezza e sostenibilità. \cite{ethereum-vision}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.5]{images/ethereum-merge}
+    \caption{Ethereum \emph{roadmap}}
+    \label{fig:ethereum-roadmap}
+\end{figure}
+
+Il meccanismo PoS è stato introdotto già dal 1 dicembre 2020 nell'ambiente Ethereum.
+Da questa data una blockchain chiamata \textit{Beacon Chain} ha lavorato in parallelo alla \textit{Mainnet PoW}, come è mostrato dalla Figura \ref{fig:ethereum-roadmap}, senza però validare transazioni.\cite{ethereum-pos} Dopo test intensivi, è avvenuto il merge dove la \textit{Beacon Chain} è subentrata come \textit{Blockchain} principale di Ethereum.
+Il merge ha permesso ad Ethereum di diminuire di circa il 99.95\% l'energia consumata e di ottenere una migliore sicurezza. \cite{ethereum-merge}
+
+Dal punto di vista degli utenti e holders l'interazione con l'ambiente Ethereum è rimasta invariata. 
+
+Inoltre, essendo il tempo necessario per la validazione di un blocco non più dipendente da un lavoro computazione è ora fisso a 12 secondi. \cite{ethereum-merge} 
+
+Il merge ha inoltre portato la possibilità di nuovi aggiornamenti e tecnologie al network.
+
+Come la tecnica di \textit{Sharding} che è attualmente in fase di sviluppo e consentirà di aumentare la scalabilità di Ethereum permettendo di processare più transazioni in parallelo, ottendendo un risultato di più di 100'000 transazioni al secondo.
+Lo Sharding permette di suddividere la rete ethereum in Shard, ovvero frammenti della blockchain principale in cui ogni shard gestirà un sottoinsieme di transazioni e di stato del sistema. Questo significa che la rete Ethereum risulterà più veloce e i sistemi sviluppati su di essa permetteranno un utilizzo più efficiente. \cite{ethereum-sharding}
+
+\subsubsection{Ethereum Virtual Machine}
+
+A differenza di altre blockchain, Ethereum offre la possibilità di definire ed eseguire degli \textit{smart contracts}, programmi informatici che risiedono e operano sulla blockchain.
+Per questo funzionamento è necessario un componente specifico: la Ethereum Virtual Machine, o più semplicemente EVM.
+Questa entità è una macchina a stati che definisce le regole per cambiare stato tra un blocco all'altro.
+L'EVM non è altro che un computer virtuale, basato su un vasto insieme di computer distribuiti. \cite{ethereum-virtual-machine}
+
+In Ethereum, uno stato è una grande struttura di dati chiamata \textit{Merkle Patricia Tree}, la quale mantiene tutti gli account collegati da hashes ed è riducibile a un singolo hash radice salvato sulla blockchain.
+La macchina a stati di Ethereum processa le operazioni in modo sequenziale, e ad ogni transazione eseguita lo stato della EVM viene aggiornato.
+
+La EVM si comporta come farebbe una funzione matematica: dato un input, produce un output deterministico.
+Per eseguire operazioni, la EVM necessita di codice macchina.
+Vista la difficoltà per un umano di programmare a un livello così sono stati sviluppati linguaggi di programmazione come \textit{Solidity}.
+Questo è un linguaggio di programmazione \textit{object-oriented} disegnato appositamente per essere usato sull'Ethereum Virtual Machine.
+La sintassi del linguaggio è stata influenzata da C++, Phyton e Javascript. \cite{solidity}
+Il compito di Solidity e altri linguaggi di programmazione simili è quello di rendere la programmazione di \textit{smart contracts} più facile ed intuitiva tramite un linguaggio ad alto livello.
+
+
+Una volta scritto il codice, questo viene compilato e tradotto in codice macchina.
+Le operazioni da svolgere sono raggruppate in \textit{opcode}, un linguaggio intermedio tra linguaggio umano e linguaggio macchina.
+Un opcode è un'operazione stack (XOR, AND, ADD, SUB ecc.) oppure un'operazione specifica per la blockchain (ADDRESS, BALANCE, BLOCKHASH ecc.).
+
+\subsubsection{Gas e fees}
+Dal momento che ogni operazione sulla EVM è molto dispendiosa in termini di tempo e risorse è stato inserito un meccanismo per prevenire che gli utenti usino la macchina a stati per operazioni di scarsa importanza.
+Ad ogni opcode infatti corrisponde una determinata quantità di \textit{gas} per essere eseguito.
+Il gas rappresenta l'ammontare di sforzo computazionale necessario per eseguire un'operazione specifica sul network Ethereum, e funziona come una tassa da pagare per eseguire del codice. \cite{gas-and-fees}
+
+Il costo del gas è calcolato in \textit{gwei}, dove un gwei corrisponde a $10^{-9}$ ETH.
+Anche il costo di una transazione è espresso in gwei ed è calcolato su una \textit{base fee} al quale si somma una \textit{priority fee}, la quale rappresenta una mancia per incentivare i \textit{miners} ad includere la transazione nel blocco.
+Nel caso in cui si verifichino molte richieste nello stesso momento, i \textit{miners} saranno propensi ad includere nel nuovo blocco le transazioni con \textit{priority fee} maggiore: per questo motivo la quantità di gas necessaria per eseguire una transazione può variare.
+È inoltre possibile specificare una \textit{max fee}, ovvero l'importo limite che si è disposti a pagare per eseguire una transazione.
+La quantità di gas minima è determinata dal numero di operazioni di scrittura eseguite, creando la necessità di ridurre le informazioni da scrivere sulla \textit{Blockchain}.
+Una soluzione per ridurre il numero di operazioni da scrivere e di conseguenza i costi delle transazioni è l'utilizzo di IPFS, trattati nel capitolo \hyperref[sec:ipfs]{\textit{IPFS}}.
+
+Ogni istruzione di scrittura presente nella transazione consuma il gas totale fornito dall'utente.
+Nel caso in cui un'istruzione necessiti di più gas rispetto a quello rimasto, l'esecuzione sarà interrotta e tutte le operazioni annullate.
+Il gas consumato nell'esecuzione andrà perso, mentre quello rimanente sarà rimborsato all'utente.
+
+\subsubsection{Mainnets e Testnets}
+\label{sec:mainnet-testnet}
+
+Nella tecnologia blockchain, una mainnet è lo stato finale, più stabile e completamente funzionale di un network blockchain.
+Le mainnet offrono la possibilità di rilasciare DApps per l'utilizzo pubblico.
+Tutte le transazioni reali sono eseguite sulla mainnet. \cite{testnet-vs-mainnet-shardeum}
+
+Una testnet è un'istanza di una blockchain alimentata dalla versione medesima dello stesso software o più recente, con lo scopo di essere usata per fare testing e sperimentazione senza il rischio di dover esporre dei fondi reali o la chain principale (mainnet). \cite{testnet-wikipedia}
+
+Data la natura immutabile di una blockchain, l'aggiunta di nuove features comporta dei rischi che possono portare a conseguenze anche catastrofiche, come la perdita dei fondi dei propri utenti.
+Per questo motivo esperimenti rigorosi su una testnet sono spesso una buona pratica in termini di sicurezza.
+Le criptovalute native alle testnet possono essere usate solo in tali blockchain e non hanno valore all'esterno della testnet.
+
+Dal momento che il \textit{deploy} e la maggior parte delle operazioni su smart contracts hanno un costo in gas, e di conseguenza in valute reali, sviluppare una demo o un Proof of Concept su una mainnet comporterebbe costi non indifferenti.
+In questo caso si può considerare l'uso di testnet che simuli il comportamento di una mainnet.
+    
+\paragraph{Sepolia}
+Un esempio di testnet è Sepolia, una rete di test pubblica che funziona mediante la propria valuta (Sepolia ETH).
+È stata creata nell'ottobre del 2021 dagli sviluppatori di Ethereum ed utilizza un meccanismo di consenso di tipo PoS.
+Alcune particolarità di questa testnet sono i tempi di minig dei blocchi minori, che permettono di confermare le transazioni più velocemente, ed essere \textit{uncapped}.
+Questa caratteristica implica che non esiste un limite al numero di coin che possono essere creati sulla testnet di Sepolia. \cite{sepolia}
+
+Come per altre testnet, è possibile ottenere dei coin della blockchain tramite un Faucet, un'applicazione web che fornisce l'utente con una piccola quantità di criptovalute native.
+
+\paragraph{Testnet locale}
+Un altro metodo per testare le proprie applicazioni è quello di creare una testnet locale.
+Questo metodo è particolarmente utile per testare le proprie applicazioni in un ambiente controllato, dove è possibile simulare diversi scenari e testare le proprie applicazioni in modo più approfondito.
+Per creare una testnet locale è necessario installare un client Ethereum, come ad esempio Hardhat, e configurare il proprio ambiente di sviluppo. \cite{hardhat}
+
+\subsubsection{Token}
+Un token è un'unità digitale, rappresentata da un'entità unica su una blockchain, che può rappresentare una varietà di asset, come valute, proprietà, diritti di accesso, e così via.
+Grazie alla loro programmabilità, i token possono essere utilizzati per creare applicazioni decentralizzate, effettuare transazioni finanziarie e gestire asset digitali in modo sicuro e trasparente. \cite{coinbase-token}
+
+Inoltre, il termine \textit{token} è spesso usato come sinonimo di \textit{coin} ma non sono la stessa cosa.
+Il termine \textit{coin} è un'alternativa a \textit{criptovaluta}, una moneta digitale basata su tecnologia blockchain, come spiegato in modo più approfondito nel capitolo \hyperref[sec:criptovalute]{\textit{criptovalute}}.
+La differenza principale è il fatto che una coin è la moneta nativa della blockchain mentre i token sono altre monete che si appoggiano a smart contract.
+Per esempio, ETH è la moneta nativa della blockchain ethereum mentre USDT (Tether) e BNB (Binance token) sono token.\cite{coinbase-token} 
+
+\subsubsection{Smart Contract}
+\label{sec:smart-contract}
+Una delle principali caratteristiche che contraddistingue Ethereum è quella di poter definire smart contracts, programmi informatici che risiedono sulla blockchain.
+Sono usati per creare \textit{Dapp}, applicazioni automatizzate che risiedono sulla chain e sono sempre pronte all'uso.
+
+Uno smart contract è una raccolta di codice (definito dalle sue funzioni) e di dati (definiti dal suo stato) che risiede a un indirizzo specifico sulla blockchain Ethereum. 
+Gli smart contracts sono un tipo di account Ethereum, per tanto possono essere l'oggetto di transazioni.
+Nonostante questo, non sono controllati da un utente, ma sono distribuiti sulla blockchain ed eseguiti come programmato. \cite{smart-contracts}
+
+Gli smart contracts sono scritti in un linguaggio di programmazione Turing completo, ovvero un linguaggio che può eseguire qualsiasi algoritmo. 
+Il linguaggio più utilizzato per scrivere smart contracts è Solidity, un linguaggio di programmazione ad alto livello simile a Javascript. \cite{solidity}
+
+La pubblicazione di uno smart contract necessita la compilazione del codice sorgente in bytecode, ovvero una rappresentazione del codice in linguaggio macchina. Durante la compilazione viene generato un \textit{Application Binary Interface (ABI)}, un file che contiene le informazioni necessarie per interagire con lo smart contract. \cite{smart-contracts}
+
+Una volta che un contratto è pubblicato su Ethereum diventa visibile a tutti e non può più essere né modificato né rimosso.
+Questa caratteristica serve a implementare il principio di \textit{Code is law}, una forma di regolazione dove la tecnologia è usata per imporre regole esistenti. \cite{code-is-law}
+
+Alcuni casi d'uso degli smart contracts sono app di prestito, borse di credito decentralizzate, marketplace o crowdfunding.
+Un particolare esempio di applicazione degli smart contracts è la creazione di NFT.
+I Non-Fungile-Token sono degli assets digitali contraddistinti dalla loro unicità e dalla (quasi) impossibilità di essere contraffatti.
+Dal momento che si basano sulla blockchain, cambiare il proprietario di un NFT o copiarne uno esistente sarebbe estremamente difficile e dispendioso. \cite{smart-contracts}
+
+All'interno dei capitoli che seguono verranno approfonditi degli standard ERC (Ethereum Request for Comments), essi forniscono delle linee guida e specifiche tecniche per la definizione di un formato comune per la creazione di token su \textit{Blockchain} Ethereum. Gli standard ERC vengono proposti dalla \textit{community} di Ethereum che si occupa di discuterli e revisionarli. Lo scopo di questi standard è quello di garantire l'interoperabilità, la sicurezza e l'uniformità tra i diversi partecipanti della rete Ethereum. \cite{erc}
+
+Sono state create diverse librerie con degli standard ERC già implementati, in modo da semplificare la fase di sviluppo e ridurre il rischio di errori. Un esempio di queste librerie è \textit{OpenZeppelin}\footnote{https://www.openzeppelin.com/}, la quale fornisce una vasta gamma di smart contracts già implementati, tra cui gli standard ERC20, ERC721 e ERC1155. \cite{ethereum-smart-contracts-library}
+
+\paragraph{ERC20}
+Lo standard ERC20 è fondamentale nell'ecosistema Ethereum. Esso permette la creazione di nuovi token fungibili e interscambiabili. La sua implementazione di base include la funzionalità di trasferimento da un account a un altro, senza la necessità di un intermediario. In aggiunta, lo standard ERC20 permette di ottenere il bilancio di un account e la supply totale del token, rendendo trasparente il funzionamento. \cite{erc20}
+
+
+\paragraph{ERC721}
+\label{sec:erc721}
+Questo standard permette di identificare inequivocabilmente un bene ad una persona.
+Infatti, lo standard ERC721 è ciò che rappresenta gli NFT, il quale viene identificato tramite un ID univoco.
+Un NFT (Non-Fungible Token) è un tipo di token unico e irripetibile sulla blockchain, che rappresenta un asset digitale. 
+
+In aggiunta, una collezione di NFT è un insieme di token che condividono lo stesso \textit{smart contract}, solitamente il creatore mantiene una coerenza tra i token della collezione, per esempio creando una collezione di immagini con lo stesso stile.
+
+Grazie alla loro natura unica, gli NFT possono essere utilizzati per creare marketplace per asset digitali, per gestire diritti d'autore, per certificare l'autenticità di opere d'arte o di oggetti di valore, e molto altro ancora.
+
+Questo standard ha un funzionamento di tipo modulare, dove ogni modulo è un contratto che implementa una funzionalità specifica. Più in dettaglio, lo standard ERC721 implementa le funzionalità di base per la creazione di un NFT e il trasferimento di proprietà dal proprietario o da un account autorizzato. Di seguito un elenco dei moduli aggiuntivi:
+
+\begin{itemize}
+    \item \textit{ERC721Metadata}: permette di aggiungere metadati al token, come il nome, la descrizione e l'immagine. Essi \textit{non} sono salvati nella blockchain in quanto risulterebbero troppo costosi, la soluzione più comunemente adottata è quella di salvare i metadati su \hyperref[sec:ipfs]{\textit{IPFS}} e salvare unicamente l'hash risultate sulla blockchain.
+    \item \textit{ERC721Enumerable}: permette di migliorare la numerazione di NFT e la appartenenza ad un account, rendendo più facile la gestione di collezioni di NFT.
+    \item \textit{ERC721Full}: Combinazione dei moduli ritenuti essere l'implementazione minima per un NFT, ovvero \textit{ERC721}, \textit{ERC721Metadata} e \textit{ERC721Enumerable}.
+    \item \textit{ERC721Mintable}: Aggiunge la possibilità di creare nuovi token al di fuori del momento di creazione dello smart contract, aggiungendo inoltre un controllo su chi può creare nuovi token.
+    \item \textit{ERC721Burnable}: Aggiunge la possibilità di distruggere un token, rimuovendolo dalla blockchain.
+    \item \textit{ERC721Pausable}: Aggiunge la possibilità di mettere in pausa il contratto, impedendo il trasferimento di token.
+\end{itemize}
+
+Attualmente gli NFT sono spesso legati ad immagini, tuttavia essendo che i metadati sono solitamente salvati su \hyperref[sec:ipfs]{\textit{IPFS}}, è possibile creare NFT per qualsiasi tipo di asset digitale, come video, musica, documenti, oggetti 3D e molto altro. \cite{erc721}
+
+
+\paragraph{ERC1155}
+\label{sec:erc1155}
+
+Lo standard ERC1155 è stato concepito per risolvere alcune problematiche presenti negli standard ERC20 e ERC721, come il costo di distribuzione (deploy) e la scalabilità. Una delle sue caratteristiche distintive è la possibilità di coniare sia token fungibili che non fungibili all'interno dello stesso contratto intelligente. Inoltre, l'ERC1155 ha introdotto un meccanismo innovativo che consente il trasferimento di più token attraverso una singola transazione, portando a una notevole riduzione delle spese di gas. Questa norma si dimostra estremamente vantaggiosa per lo sviluppo di dApp che richiedono una combinazione di token fungibili e non fungibili, ampliando notevolmente l'orizzonte delle possibilità nell'ambito delle applicazioni blockchain. \cite{erc1155}
+
+\paragraph{ERC2981}
+\label{sec:erc2981}
+Questo standard consente di impostare un importo di \textit{royalty}, cioè una percentuale sulla vendita da pagare al creatore dell'NFT o ad un account scelto. Il pagamento deve essere messo in atto ogni volta che l'NFT viene venduto. L'ERC2981 è un estensione applicabili agli standard precedentemente analizzati, ovvero l'ERC721 e l'ERC1155. La motivazione che ha richiesto la creazione di questo standard è stata la la necessità di un meccanismo standardizzato per il pagamento delle \textit{royalty} all'interno dei marketplace. Tuttavia, il pagamento delle \textit{royalty} è un'operazione che richiede un'azione volontaria da parte del mercato digitale. 
+
+Attualmente, la gestione delle \textit{royalty} non è unificata ed ogni marketplace ha il proprio sistema per gestire le \textit{royalty} creando diversi disagi di interoperabilità tra i vari marketplace. Lo standard ERC2981 fornisce un semplice meccanismo per risalire alla percentuale di \textit{royalty} da pagare, in modo da poter automatizzare il pagamento di esse. \cite{erc2981}
+
+Attualmente, questo standard presenta la possibilità di inserire un solo destinatario per le \textit{royalty}, tuttavia potrebbe essere nell'interesse del creatore di una collezione di NFT di dividere le \textit{royalties} tra più persone. Per risolvere questo problema viene spesso utilizzato uno \textit{smart contract} che si occupa di dividere i pagamenti tra più destinatari, chiamato \textit{Payment Splitter}. \cite{payment-splitter}
+
+\newpage

@@ -1,0 +1,58 @@
+\section{Marketplace}
+Con il termine \textit{marketplace} ci si riferisce ad un qualsiasi luogo che facilita lo scambio di beni e servizi tra acquirenti e venditori.
+I marketplace possono essere fisici, come ad esempio i mercati, oppure virtuali, come i siti di e-commerce. 
+Essi differiscono da negozi online tradizionali in quanto non vendono direttamente i prodotti, ma fungono da intermediari. \cite{def-marketplace}
+
+Questo meccanismo permette di creare un ecosistema in cui i venditori sono in grado di raggiungere un pubblico più ampio, 
+mentre gli acquirenti possono confrontare i prezzi e le caratteristiche dei prodotti offerti da diversi venditori. \cite{def-marketplace}
+
+I marketplace \textit{online} si classificano in due categorie principali: \cite{bluecart-types-of-marketplaces}
+
+\begin{itemize}
+    \item \textit{Centralizzati}: marketplace in cui un'azienda o un gruppo gestisce l'intera piattaforma, inclusi i pagamenti e la gestione dei prodotti. 
+    \item \textit{Decentralizzati}: marketplace che operano in una rete \textit{peer-to-peer} e quindi senza un intermediario. 
+\end{itemize}
+
+I \textit{marketplace centralizzati} sono modelli di business che attualmente presentano una dominanza nel panorama commerciale online. Questo modello è composto da un'entità centrale che gioca un ruolo fondamentale nella gestione, supervisione e facilitazione dell'intero ecosistema. 
+Il suo ruolo principale è quello di fornire un'infrastruttura consolidata nella quale avvengono le transazioni commerciali. \cite{def-centralized-marketplace}
+
+Tutti i partecipanti, sia i venditori che gli acquirenti, devono registrarsi e autenticarsi con l'entità centrale per poter utilizzare il servizio offerto. Il loro coinvolgimento include la necessità di riporre \textit{fiducia} verso l'entità centralizzata, affidandole i propri dati personali e le proprie informazioni sensibili, come dati di pagamento e dati anagrafici. \cite{def-centralized-marketplace}
+
+Un aspetto principale di questo modello di business è la presenza di commissioni sulle vendite, esse vengono applicate per coprire i costi di gestione della piattaforma e per generare un profitto. 
+
+Come già anticipato, questo modello di business è attualmente dominante, allo stesso tempo però presenta alcune limitazioni. La concentrazione del potere in un'unica entità può portare a preoccupazioni legate alla sicurezza e alla privacy, nonché alla gestione delle transazioni, essendo \textit{non} trasparenti. \cite{def-centralized-marketplace}
+
+I \textit{marketplace decentralizzati} operano in una rete \textit{peer-to-peer} fornendo servizi comparabili ad un marketplace centralizzato, ma a differenza di quest'ultimo operano senza intermediario.
+
+Essi sono comunemente associati alle tecnologie \hyperref[sec:blockchain]{\textit{Blockchain}}, in quanto possiedono un ambiente sicuro e trasparente per la gestione delle transazioni. Questo permette di migliorare, rispetto ad un sistema centralizzato, la sicurezza e la trasparenza del marketplace. L'assenza di un punto di controllo centrale riduce notevolmente il rischio di frodi e manipolazioni, poiché le transazioni vengono verificate e registrate in modo immutabile sulla blockchain. Ciò significa che gli utenti non sono costretti a riporre totale fiducia in un'entità centrale, ma possono invece confidare nella crittografia e nella matematica della blockchain stessa. \cite{def-decentralized-marketplace}
+
+Un ulteriore confronto tra le due tipologie di marketplace dimostra che anche a livello di privacy vi sono delle differenze. Infatti, con i \textit{marketplace decentralizzati} non è necessario autenticarsi con i propri dati personali ma è sufficiente un \hyperref[sec:wallet]{\textit{wallet}} per accedere. \cite{def-decentralized-marketplace}
+
+Di seguito, la tabella comparativa \ref{table:confronto-marketplace} mostra le principali differenze tra le due tipologie di marketplace.
+
+\newpage
+
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{1.5}
+    \begin{adjustbox}{max width=1\textwidth}
+        \begin{tabular}{| p{0.33\linewidth} | p{0.33\linewidth} | p{0.33\linewidth} |}
+            \hline
+            \rowcolor{mint-cream}
+            Caratteristiche                  & Centralizzato                                                       & Decentralizzato                                      \\
+            \hline
+            Ruolo dell'entità centrale       & Fondamentale nella gestione e facilitazione                         & Assenza di intermediari o entità centrali            \\
+            \hline
+            Partecipazione e autenticazione  & Richiede la registrazione e autenticazione presso l'entità centrale & Accesso tramite wallet e crittografia Blockchain     \\
+            \hline
+            Fiducia e dati personali         & Necessita fiducia nell'entità centrale                              & Fiducia basata sulla crittografia e sulla Blockchain \\
+            \hline
+            Sicurezza, privacy e trasparenza & Preoccupazione generale riguardo alla gestione dei dati             & Potenziati dalla tecnologia Blockchain               \\
+            \hline
+            Gestione delle transazioni       & Gestite centralmente, spesso non trasparenti                        & Verificate e registrate in modo immutabile          \\
+            \hline
+        \end{tabular}
+    \end{adjustbox}
+    \caption{Confronto tra Marketplace Centralizzato e Decentralizzato}
+    \label{table:confronto-marketplace}
+\end{table}

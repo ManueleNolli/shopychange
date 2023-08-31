@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NFTOperations renders correctly, account disconnected 1`] = `
+<div>
+  <div
+    class="css-gmuwbf"
+  >
+    <div
+      class="css-k008qs"
+    >
+      <div
+        class="chakra-stack css-y9ykjr"
+      >
+        <div
+          data-testid="CollectionOwnerCheck"
+        >
+          <button
+            class="chakra-button css-ha7ah3"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Modify Token Royalties
+          </button>
+        </div>
+        <div
+          data-testid="WithdrawRoyaltyButton"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NFTOperations renders correctly, owner and listed 1`] = `
+<div>
+  <div
+    class="css-b93e9j"
+  >
+    <div
+      class="css-k008qs"
+    >
+      <div
+        class="chakra-stack css-y9ykjr"
+      >
+        <div
+          data-testid="SellOrIsForSale"
+        />
+        <div
+          data-testid="ModifySaleManager"
+        />
+        <div
+          data-testid="CancelSaleManager"
+        />
+      </div>
+    </div>
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-1r66nag"
+    />
+    <div
+      class="css-k008qs"
+    >
+      <div
+        class="chakra-stack css-y9ykjr"
+      >
+        <div
+          data-testid="CollectionOwnerCheck"
+        >
+          <button
+            class="chakra-button css-ha7ah3"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Modify Token Royalties
+          </button>
+        </div>
+        <div
+          data-testid="WithdrawRoyaltyButton"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NFTOperations renders correctly, possible buyer 1`] = `
+<div>
+  <div
+    class="css-b93e9j"
+  >
+    <div
+      data-testid="BuyManager"
+    />
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-1r66nag"
+    />
+    <div
+      class="css-k008qs"
+    >
+      <div
+        class="chakra-stack css-y9ykjr"
+      >
+        <div
+          data-testid="CollectionOwnerCheck"
+        >
+          <button
+            class="chakra-button css-ha7ah3"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Modify Token Royalties
+          </button>
+        </div>
+        <div
+          data-testid="WithdrawRoyaltyButton"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

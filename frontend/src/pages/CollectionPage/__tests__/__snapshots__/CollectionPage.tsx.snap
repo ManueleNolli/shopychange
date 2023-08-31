@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollectionPage renders successfully 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-gmuwbf"
+    >
+      <div
+        class="css-j7qwjs"
+      >
+        <h2
+          class="chakra-heading css-xi606m"
+        >
+          mockedContractName
+        </h2>
+        <div
+          class="css-1he8q8i"
+        >
+          <div
+            data-testid="CollectionOwnerCheck"
+          >
+            <button
+              class="chakra-button css-h1c5vj"
+              data-testid="onClick-button"
+              style="white-space: initial;"
+              type="button"
+            >
+              Edit Collection Royalties
+            </button>
+          </div>
+          <div
+            data-testid="WithdrawRoyaltyButton"
+          />
+        </div>
+        <div
+          data-testid="NFTCardGrid"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<div>
+  <div
+    class="css-1q7njkh"
+  >
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-1upb9tn"
+    />
+    <div
+      class="chakra-stack css-10bjzzg"
+    >
+      <img
+        alt="Logo"
+        class="chakra-image css-waj431"
+        src="logo.png"
+      />
+      <p
+        class="chakra-text css-0"
+      >
+        © 2023 SUPSI by Manuele Nolli. All rights reserved
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create renders correctly 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-gmuwbf"
+    >
+      <h2
+        class="chakra-heading css-0"
+      >
+        Create NFTs
+      </h2>
+    </div>
+    <div
+      class="css-1ffdipv"
+    >
+      <div
+        class="css-zg1vud"
+      >
+        <button
+          class="chakra-button css-rbo9mh"
+          data-testid="onClick-button"
+          style="white-space: initial;"
+          type="button"
+        >
+          Create Single NFT
+        </button>
+        <button
+          class="chakra-button css-csrfg1"
+          data-testid="onClick-button"
+          style="white-space: initial;"
+          type="button"
+        >
+          Create Collection
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

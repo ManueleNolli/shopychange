@@ -1,0 +1,433 @@
+@online{def-marketplace,
+title  = {What is marketplace},
+url    = {https://www.bluecart.com/blog/what-is-marketplace},
+urldate =  {2023-08-29},
+}
+
+@online{bluecart-types-of-marketplaces,
+title  = {Types of marketplaces},
+url    = {https://www.bluecart.com/blog/types-of-marketplaces},
+urldate =  {2023-08-29},
+}
+
+@online{def-centralized-marketplace,
+title  = {Centralized marketplace},
+url    = {https://uk.indeed.com/career-advice/career-development/what-is-a-marketplace},
+urldate =  {2023-08-29},
+}
+
+@online{def-decentralized-marketplace,
+title  = {What is a Decentralized Marketplace},
+url    = {https://coinmarketcap.com/alexandria/glossary/decentralized-marketplace},
+urldate =  {2023-08-29},
+}
+
+@online{web3-ethereum,
+title = {Introduction to Web3},
+url = {https://ethereum.org/en/web3/},
+month = aug,
+year = {2023},
+urldate =  {2023-08-29},
+}
+
+@online{binance-blockchain,
+title  = {Binance Academy - Blockchain},
+url    = {https://academy.binance.com/en/glossary/blockchain},
+urldate = {2023-07-20},
+}
+
+@online{binance-block,
+title = {Blockchain block},
+url = {https://academy.binance.com/en/glossary/block},
+urldate = {2023-07-20},
+}
+
+@online{ibm-blockchain,
+title = {Blockchain for IBM},
+url = {https://www.ibm.com/it-it/topics/what-is-blockchain},
+urldate = {2023-07-20},
+}
+
+@online{bitsmap-block,
+title = {Bitstamp block},
+url = {https://www.bitstamp.net/learn/crypto-101/what-are-blocks-in-the-blockchain},
+month = aug,
+year = {2022},
+urldate = {2023-07-20},
+}
+
+@online{coinmarket-tamperProof,
+title = {Tamper-Proof Ledger},
+url = {https://coinmarketcap.com/alexandria/glossary/tamper-proof-ledger},
+urldate = {2023-07-20},
+}
+
+@online{originstamp-nodi,
+title = {Originstamp Nodes},
+url = {https://originstamp.com/blog/the-10-different-types-of-blockchain-nodes-and-how-they-work},
+urldate = {2023-07-20},
+}
+
+@online{binance-bft,
+title  = {Binance Academy - BFT},
+url    = {https://academy.binance.com/en/articles/byzantine-fault-tolerance-explained},
+urldate = {2023-07-20},
+}
+
+@online{bitpanda-privatekey,
+title = {What are private and public keys},
+url = {https://www.bitpanda.com/academy/en/lessons/what-are-public-keys-private-keys-and-wallet-addresses},
+%month = apr,
+%year = {2023},
+urldate = {2023-07-20},
+}
+
+@online{ledger-privatekey,
+title = {What are private and public keys},
+url = {https://www.ledger.com/academy/blockchain/what-are-public-keys-and-private-keys},
+month = oct,
+year = {2019},
+urldate = {2023-07-22},
+}
+
+@online{custodial-wallet,
+title  = {Custodial vs Non custodial wallet},
+url    = {https://academy.binance.com/en/articles/custodial-vs-non-custodial-wallets-what-s-the-difference},
+month = mar,
+year = {2022},
+urldate = {2023-07-22},
+}
+
+@online{blockchain-chiavi,
+title  = {Chiave private e pubblica},
+url    = {https://support.blockchain.com/hc/en-us/articles/4417082520724-What-are-public-and-private-keys-and-how-do-they-work},
+month = jan,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{swiss-stablecoin,
+title  = {Stablecoin Svizzera},
+url    = {https://www.sif.admin.ch/sif/it/home/finanzmarktpolitik/digitalizzazione-settore-finanziario/criptomonete-stabili-stablecoin.html},
+month = jan,
+year = {2023},
+urldate = {2023-08-15},
+}
+
+@online{binance-stablecoin,
+title  = {Binance Academy - Stablecoin},
+url    = {https://www.sif.admin.ch/sif/it/home/finanzmarktpolitik/digitalizzazione-settore-finanziario/criptomonete-stabili-stablecoin.html},
+month = jun,
+year = {2023},
+urldate = {2023-08-15},
+}
+
+@online{binance-pow,
+title  = {Binance Academy - PoW},
+url    = {https://academy.binance.com/en/articles/proof-of-work-explained},
+urldate = {2023-07-22},
+}
+
+@online{bitpanda-miningPool,
+title  = {Mining pool},
+url    = {https://www.bitpanda.com/academy/en/lessons/what-is-the-purpose-of-mining-pools-and-how-do-they-work/},
+urldate = {2023-07-22},
+}
+
+@online{coindesk-51attack,
+title  = {51\% attack},
+url    = {https://www.coindesk.com/learn/what-is-a-51-attack},
+month = oct,
+year = {2021},
+urldate = {2023-07-22},
+}
+
+@online{vitalik-pos,
+title  = {PoS meccanismo},
+url    = {https://vitalik.ca/general/2017/12/31/pos_faq.html},
+month = dec,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{ethereum-pos,
+title  = {PoS validatori},
+url    = {https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/},
+month = mar,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{permissioned-blockchain,
+title  = {What Are Permissioned and Permissionless Blockchains?},
+url    = {https://academy.binance.com/en/articles/what-are-permissioned-and-permissionless-blockchains},
+month = feb,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{51_attack_PoA,
+title  = {Proof-of-Authority consensus},
+url    = {https://apla.readthedocs.io/en/latest/concepts/consensus.html},
+urldate = {2023-07-22},
+}
+
+@online{what-is-ethereum,
+title = {What is Ethereum?},
+url = {https://ethereum.org/en/what-is-ethereum},
+month = apr,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{what-is-ether,
+title = {What is Ether (ETH)?},
+url = {https://ethereum.org/en/eth},
+month = apr,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{ethereum-merge,
+title  = {Ethereum merge},
+url    = {https://ethereum.org/en/upgrades/merge},
+month = apr,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{ethereum-sharding,
+title  = {Ethereum Sharding},
+url    = {https://ethereum.org/en/roadmap/danksharding/},
+month = aug,
+year = {2023},
+urldate = {2023-08-14},
+}
+
+
+@online{ethereum-virtual-machine,
+title = {Ethereum Virtual Machine (EVM)},
+url = {https://ethereum.org/en/developers/docs/evm},
+month = apr,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{gas-and-fees,
+title = {Gas and Fees},
+url = {https://ethereum.org/en/developers/docs/gas},
+month = apr,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{solidity,
+title = {Solidity},
+url = {https://docs.soliditylang.org/en/latest},
+month = feb,
+year = {2022},
+urldate = {2023-07-22},
+}
+
+@online{ethereum-vision,
+title  = {Visione Ethereum},
+url    = {https://ethereum.org/en/roadmap/vision},
+month = apr,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{testnet-vs-mainnet-shardeum,
+title = {Testnet vs Mainnet: What's the Difference?},
+url = {https://shardeum.org/blog/testnet-vs-mainnet},
+month = oct,
+year = {2022},
+urldate = {2023-07-22},
+}
+
+@online{testnet-wikipedia,
+title = {Testnet},
+url = {https://en.wikipedia.org/wiki/Testnet},
+month = mar,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{hardhat,
+title = {Hardhat documentation},
+url = {https://hardhat.org/docs},
+urldate = {2023-07-22},
+}
+
+@online{smart-contracts,
+title = {Introduction to Smart Contracts},
+url = {https://ethereum.org/en/developers/docs/smart-contracts},
+month = apr,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{code-is-law,
+title = {Code is Law},
+url = {https://ethereumclassic.org/why-classic/code-is-law},
+month = feb,
+year = {2022},
+urldate = {2023-07-22},
+}
+
+
+@online{coinmarketcap,
+title = {Coinmarketcap dashboard},
+url = {https://coinmarketcap.com/},
+month = giu,
+year = {2023},
+urldate = {2023-07-22},
+}
+
+@online{binance-cryptocurrency,
+title = {Binance Academy - Cryptocurrency},
+url = {https://academy.binance.com/en/glossary/cryptocurrency},
+urldate = {2023-07-22},
+}
+
+@online{coinbase-token,
+title = {Cos'è un token?},
+url = {https://www.coinbase.com/it/learn/crypto-basics/what-is-a-token},
+%month = mar,
+%year = {2022},
+urldate =  {2023-05-04},
+}
+
+@online{erc,
+title = {Ethereum Request For Comment (ERC)},
+url = {https://coinmarketcap.com/alexandria/glossary/ethereum-request-for-comment-erc},
+%month = mar,
+%year = {2022},
+urldate =  {2023-05-04},
+}
+
+@online{erc20,
+title  = {ERC20 token},
+url    = {https://ethereum.org/en/developers/docs/standards/tokens/erc-20},
+month = apr,
+year = {2023},
+urldate =  {2023-04-30},
+}
+
+@online{erc721,
+title  = {ERC721 token},
+url    = {https://ethereum.org/it/developers/docs/standards/tokens/erc-721},
+month = jan,
+year = {2023},
+urldate =  {2023-04-30},
+}
+
+@online{erc1155,
+title  = {ERC1155 token},
+url    = {https://ethereum.org/it/developers/docs/standards/tokens/erc-1155},
+month = jan,
+year = {2023},
+urldate =  {2023-04-30},
+}
+
+
+@online{erc2981,
+title  = {ERC2981},
+url    = {https://eips.ethereum.org/EIPS/eip-2981},
+month = sep,
+year = {2020},
+urldate =  {2023-08-15},
+}
+
+@online{payment-splitter,
+title  = {Contract Payment Splitter},
+url    = {https://docs.openzeppelin.com/contracts/4.x/api/finance},
+urldate =  {2023-08-15},
+}
+
+@online{sepolia,
+title = {What is Sepolia Testnet?},
+url = {https://www.alchemy.com/overviews/sepolia-testnet},
+month = mar,
+year = {2023},
+urldate = {2023-08-14},
+}
+
+@online{ethereum-nodes,
+title = {Nodes and Clients Ethereum},
+url = {https://ethereum.org/en/developers/docs/nodes-and-clients},
+month = jun,
+year = {2023},
+urldate = {2023-08-14},
+}
+
+@online{ethereum-ens,
+title = {Ethereum ENS},
+url = {https://ens.domains/},
+month = jun,
+year = {2023},
+urldate = {2023-08-15},
+}
+
+@online{ipfs,
+title = {IPFS},
+url = {https://docs.ipfs.tech/},
+urldate = {2023-08-15},
+}
+
+
+@online{bitpanda-dApp,
+title = {Cos'è una DApp?},
+url = {https://www.bitpanda.com/academy/it/lezioni/cose-una-dapp/},
+urldate = {2023-08-24},
+}
+
+@online{operator-filter-registry,
+title = {Operator Filter Registry},
+url = {https://github.com/ProjectOpenSea/operator-filter-registry},
+urldate = {2023-08-24},
+}
+
+@online{rarible-community-marketplaces,
+title = {Rarible Community Marketplaces},
+url = {https://rarible.com/blog/cmp-royalties/},
+urldate = {2023-08-24},
+}
+
+
+@online{react-structure,
+title = {React File Structure},
+url = {https://legacy.reactjs.org/docs/faq-structure.html},
+urldate = {2023-08-25},
+}
+
+@online{resale-right,
+title = {Artist's Resale Right},
+url = {https://eur-lex.europa.eu/EN/legal-content/summary/resale-right-for-the-benefit-of-the-author-of-an-original-work-of-art.html},
+urldate = {2023-08-28},
+}
+
+@online{genz-fomo,
+title = {GenZ and Millenials FOMO},
+url = {https://www.businessinsider.com/gen-z-are-investing-crypto-stocks-because-of-fomo-survey-2023-6?r=US\&IR=T},
+urldate = {2023-08-28},
+}
+
+
+@online{chainalysis-money-laundering,
+title = {Chainalysis Money laundering},
+url = {https://www.chainalysis.com/blog/2022-crypto-crime-report-preview-nft-wash-trading-money-laundering/},
+urldate = {2023-08-28},
+}
+
+@online{bitstamp-privacy,
+title = {How private is blockchain},
+url = {https://www.bitstamp.net/learn/security/how-private-is-blockchain},
+urldate = {2023-08-28},
+}
+@online{ethereum-smart-contracts-library,
+title = {Ethereum Smart Contracts Libraries},
+url = {https://ethereum.org/it/developers/docs/smart-contracts/libraries/},
+urldate = {2023-08-30},
+}
+

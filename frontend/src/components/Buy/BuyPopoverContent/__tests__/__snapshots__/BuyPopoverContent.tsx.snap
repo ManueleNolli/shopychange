@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellPopoverContent renders correctly 1`] = `
+<div>
+  <div
+    class="css-1wjy6p3"
+  >
+    <div
+      class="css-17xejub"
+    />
+    <div
+      class="chakra-container css-11uhf22"
+    >
+      <h2
+        class="chakra-heading css-xi606m"
+      >
+        Are you sure you want to buy 
+        <i
+          class="chakra-text css-0"
+        >
+          Test NFT
+        </i>
+        ?
+      </h2>
+    </div>
+    <div
+      class="css-17xejub"
+    />
+    <div
+      data-testid="PriceDistribution"
+    />
+    <div
+      class="css-17xejub"
+    />
+    <div
+      class="css-1ozwi6w"
+    >
+      <div
+        class="chakra-button__group css-s2zvk0"
+        data-orientation="horizontal"
+        role="group"
+      >
+        <button
+          class="chakra-button css-j18z53"
+          data-testid="onClick-button"
+          style="white-space: initial;"
+          type="button"
+        >
+          Buy for 0.4 ETH
+        </button>
+        <button
+          class="chakra-button css-lnz0i6"
+          data-testid="onClick-button"
+          style="white-space: initial;"
+          type="button"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+    <div
+      class="css-17xejub"
+    />
+  </div>
+</div>
+`;
+
+exports[`SellPopoverContent renders correctly on loading 1`] = `
+<div>
+  <div
+    class="css-1wjy6p3"
+  >
+    <div
+      class="css-17xejub"
+    />
+    <div
+      class="chakra-container css-11uhf22"
+    >
+      <h2
+        class="chakra-heading css-xi606m"
+      >
+        Are you sure you want to buy 
+        <i
+          class="chakra-text css-0"
+        >
+          Test NFT
+        </i>
+        ?
+      </h2>
+    </div>
+    <div
+      class="css-17xejub"
+    />
+    <div
+      data-testid="PriceDistribution"
+    />
+    <div
+      class="css-17xejub"
+    />
+    <div
+      class="css-1ozwi6w"
+    >
+      <div
+        class="chakra-button__group css-s2zvk0"
+        data-orientation="horizontal"
+        role="group"
+      >
+        <button
+          class="chakra-button css-1b928yd"
+          data-loading=""
+          data-testid="loading-button"
+          disabled=""
+          type="button"
+        >
+          <div
+            class="chakra-button__spinner chakra-button__spinner--start css-1vsp78f"
+          >
+            <span
+              style="display: inherit;"
+            >
+              <span
+                style="display: inline-block; background-color: white; width: 8px; height: 8px; margin: 2px; border-radius: 100%; animation: react-spinners-BeatLoader-beat 0.7s 0s infinite linear; animation-fill-mode: both;"
+              />
+              <span
+                style="display: inline-block; background-color: white; width: 8px; height: 8px; margin: 2px; border-radius: 100%; animation: react-spinners-BeatLoader-beat 0.7s 0.35s infinite linear; animation-fill-mode: both;"
+              />
+              <span
+                style="display: inline-block; background-color: white; width: 8px; height: 8px; margin: 2px; border-radius: 100%; animation: react-spinners-BeatLoader-beat 0.7s 0s infinite linear; animation-fill-mode: both;"
+              />
+            </span>
+          </div>
+          <span
+            class="css-q7lffx"
+          />
+        </button>
+        <button
+          class="chakra-button css-lnz0i6"
+          data-testid="onClick-button"
+          style="white-space: initial;"
+          type="button"
+        >
+          Cancel
+        </button>
+      </div>
+    </div>
+    <div
+      class="css-17xejub"
+    />
+  </div>
+</div>
+`;

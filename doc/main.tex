@@ -1,0 +1,69 @@
+% Esempio per lo stile supsi
+\documentclass[twoside]{templateSources/supsistudent} 
+\usepackage{emptypage}
+%bibliografia
+\addbibresource{linkografia.lib}
+\addbibresource{bibliografia.lib}
+\BiblatexSplitbibDefernumbersWarningOff % SUPPRESS a biblatex warning
+
+% per settare noindent
+\setlength{\parindent}{0pt}
+
+% Crea un capitolo senza numerazione che pero` appare nell'indice %
+\newcommand{\problemchapter}[1]{%
+  \chapter*{#1}%
+  \addcontentsline{toc}{chapter}{#1}%
+\markboth{#1}{#1}
+}
+
+% Numerazione delle appendici secondo norma
+\addto\appendix{
+\renewcommand{\thesection}{\Alph{chapter}.\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}}
+
+\setcounter{secnumdepth}{5} 	%per avere più livelli nei titoli
+\setcounter{tocdepth}{5}		%per avere più livelli nell'indice
+
+
+\titolo{Shopychange: OnChain Marketplace Webapp} 
+\studente{Manuele Nolli}
+\relatore{Gremlich Giuliano}
+\correlatore{Agnola Tommaso}
+\committente{SUPSI, Team Blockchain ISIN}
+\corso{Ingegneria Informatica}
+\modulo{-}
+\anno{2023}
+
+
+\begin{document}
+
+\pagenumbering{alph}
+\maketitle
+\onehalfspacing
+\frontmatter
+
+\input{./ringraziamenti.tex}
+
+\pagenumbering{roman}
+\tableofcontents
+\listoffigures					% Opzionale
+\listoftables					% Opzionale
+
+\newpage
+\mainmatter
+\pagenumbering{arabic}
+
+% Content
+\input{content/abstract}
+\input{content/introduction}
+\input{content/motivation_and_context}
+\input{content/problema}
+\input{content/statoDellArte/statoDellArte.tex}
+\input{content/approccioAlProblema/approccioAlProblema.tex}
+\input{content/results}
+\input{content/conclusions}
+
+
+\printbibliography[title={Bibliografia},nottype=online]
+\printbibliography[title={Linkografia},type=online]
+\end{document}

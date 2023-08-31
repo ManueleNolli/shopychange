@@ -1,0 +1,877 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateSingleToken renders correctly 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-gmuwbf"
+    >
+      <h2
+        class="chakra-heading css-0"
+      >
+        New Single NFT
+      </h2>
+    </div>
+    <div
+      class="css-mr3wqg"
+    >
+      <div
+        class="css-f4ygcn"
+      >
+        <form
+          action="#"
+        >
+          <div
+            class="chakra-form-control css-0"
+            role="group"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+              for="image"
+              id="field-:r0:-label"
+            >
+              Image
+              <span
+                aria-hidden="true"
+                class="chakra-form__required-indicator css-0"
+                role="presentation"
+              >
+                *
+              </span>
+            </label>
+            <div
+              class="chakra-aspect-ratio css-oj014t"
+            >
+              <div
+                class="chakra-input__group css-bx0blc"
+                data-group="true"
+              >
+                <input
+                  accept="image/*"
+                  data-testid="image-input"
+                  id="image"
+                  placeholder="image"
+                  style="display: none;"
+                  type="file"
+                />
+                <img
+                  class="chakra-image css-glhh6s"
+                  data-testid="image-placeholder"
+                  src="placeholder.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="chakra-form-control css-0"
+            role="group"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+              for="name"
+              id="field-:r1:-label"
+            >
+              Name
+              <span
+                aria-hidden="true"
+                class="chakra-form__required-indicator css-0"
+                role="presentation"
+              >
+                *
+              </span>
+            </label>
+            <input
+              aria-required="true"
+              class="chakra-input css-0"
+              id="name"
+              name="name"
+              placeholder="name"
+              required=""
+              value=""
+            />
+          </div>
+          <div
+            class="chakra-form-control css-g89h0y"
+            role="group"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+              for="description"
+              id="field-:r2:-label"
+            >
+              Description
+              <span
+                aria-hidden="true"
+                class="chakra-form__required-indicator css-0"
+                role="presentation"
+              >
+                *
+              </span>
+            </label>
+            <textarea
+              aria-required="true"
+              class="chakra-textarea css-0"
+              id="description"
+              name="description"
+              placeholder="description"
+              required=""
+            />
+          </div>
+          <div
+            class="chakra-form-control css-g89h0y"
+            role="group"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+              for="contractAddress"
+              id="field-:r3:-label"
+            >
+              Collection
+              <span
+                aria-hidden="true"
+                class="chakra-form__required-indicator css-0"
+                role="presentation"
+              >
+                *
+              </span>
+            </label>
+            <div
+              class="chakra-select__wrapper css-42b2qy"
+            >
+              <select
+                aria-required="true"
+                class="chakra-select css-1ik61og"
+                id="contractAddress"
+                name="contractAddress"
+                required=""
+              >
+                <option
+                  value="mockedAddress"
+                >
+                  Shopychange Storage
+                   - 
+                  SCS
+                </option>
+                <option
+                  value="mockedAddress2"
+                >
+                  Contract
+                   - 
+                  symbol
+                </option>
+              </select>
+              <div
+                class="chakra-select__icon-wrapper css-162mkon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="chakra-select__icon"
+                  focusable="false"
+                  role="presentation"
+                  style="width: 1em; height: 1em; color: currentColor;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-g89h0y"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+            >
+              Attributes
+            </label>
+            <div
+              class="css-bj7zsy"
+            >
+              <div
+                class="css-q6ik5y"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <input
+                    class="chakra-input css-0"
+                    id="attributes[0].trait_type"
+                    name="attributes[0].trait_type"
+                    placeholder="trait type"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="css-17xejub"
+              />
+              <div
+                class="css-q6ik5y"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <input
+                    class="chakra-input css-0"
+                    id="attributes[0].value"
+                    name="attributes[0].value"
+                    placeholder="value"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="css-1r5iisr"
+              >
+                <div
+                  class="css-cse5we"
+                >
+                  <svg
+                    aria-label="remove-attribute"
+                    fill="#FF4500"
+                    height="80%"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="80%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-98x68k"
+            >
+              <div
+                class="css-913hcs"
+              >
+                <svg
+                  aria-label="add-attribute"
+                  baseProfile="tiny"
+                  fill="#228B22"
+                  height="100%"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.2"
+                  viewBox="0 0 24 24"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 10h-4v-4c0-1.104-.896-2-2-2s-2 .896-2 2l.071 4h-4.071c-1.104 0-2 .896-2 2s.896 2 2 2l4.071-.071-.071 4.071c0 1.104.896 2 2 2s2-.896 2-2v-4.071l4 .071c1.104 0 2-.896 2-2s-.896-2-2-2z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="chakra-form-control css-pb69ky"
+            role="group"
+          >
+            <label
+              class="chakra-checkbox css-1elxtiq"
+            >
+              <input
+                aria-disabled="false"
+                aria-invalid="false"
+                class="chakra-checkbox__input"
+                id="useDefaultRoyalties"
+                name="useDefaultRoyalties"
+                style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+                type="checkbox"
+                value="false"
+              />
+              <span
+                aria-hidden="true"
+                class="chakra-checkbox__control css-dnty2r"
+              />
+              <span
+                class="chakra-checkbox__label css-1oeb2oe"
+              >
+                Use default royalties
+              </span>
+            </label>
+          </div>
+          <div
+            class="css-g89h0y"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+            >
+              Royalties
+            </label>
+            <div
+              class="css-bj7zsy"
+            >
+              <div
+                class="css-6gs9hh"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <input
+                    class="chakra-input css-0"
+                    id="royalties[0].receiver"
+                    name="royalties[0].receiver"
+                    placeholder="Receiver"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="css-17xejub"
+              />
+              <div
+                class="css-1di0xk1"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <div
+                    class="chakra-numberinput css-e69dqy"
+                  >
+                    <input
+                      aria-readonly="false"
+                      aria-required="false"
+                      aria-valuemax="100"
+                      aria-valuemin="0"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class="chakra-numberinput__field css-8atqhb"
+                      id="royalties[0].share"
+                      inputmode="decimal"
+                      name="royalties[0].share"
+                      pattern="[0-9]*(.[0-9]+)?"
+                      placeholder="Share (%)"
+                      role="spinbutton"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-1r5iisr"
+              >
+                <div
+                  class="css-cse5we"
+                >
+                  <svg
+                    aria-label="remove-royalty"
+                    fill="#FF4500"
+                    height="80%"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="80%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-98x68k"
+            >
+              <div
+                class="css-913hcs"
+              >
+                <svg
+                  aria-label="add-royalty"
+                  baseProfile="tiny"
+                  fill="#228B22"
+                  height="100%"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.2"
+                  viewBox="0 0 24 24"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 10h-4v-4c0-1.104-.896-2-2-2s-2 .896-2 2l.071 4h-4.071c-1.104 0-2 .896-2 2s.896 2 2 2l4.071-.071-.071 4.071c0 1.104.896 2 2 2s2-.896 2-2v-4.071l4 .071c1.104 0 2-.896 2-2s-.896-2-2-2z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-gmuwbf"
+          >
+            <button
+              class="chakra-button css-187rakm"
+              data-testid="onClick-button"
+              style="white-space: initial;"
+              type="submit"
+            >
+              Create NFT
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CreateSingleToken should useDefaultRoyalties 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-gmuwbf"
+    >
+      <h2
+        class="chakra-heading css-0"
+      >
+        New Single NFT
+      </h2>
+    </div>
+    <div
+      class="css-mr3wqg"
+    >
+      <div
+        class="css-f4ygcn"
+      >
+        <form
+          action="#"
+        >
+          <div
+            class="chakra-form-control css-0"
+            role="group"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+              for="image"
+              id="field-:r18:-label"
+            >
+              Image
+              <span
+                aria-hidden="true"
+                class="chakra-form__required-indicator css-0"
+                role="presentation"
+              >
+                *
+              </span>
+            </label>
+            <div
+              class="chakra-aspect-ratio css-oj014t"
+            >
+              <div
+                class="chakra-input__group css-bx0blc"
+                data-group="true"
+              >
+                <input
+                  accept="image/*"
+                  data-testid="image-input"
+                  id="image"
+                  placeholder="image"
+                  style="display: none;"
+                  type="file"
+                />
+                <img
+                  class="chakra-image css-glhh6s"
+                  data-testid="image-placeholder"
+                  src="placeholder.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="chakra-form-control css-0"
+            role="group"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+              for="name"
+              id="field-:r19:-label"
+            >
+              Name
+              <span
+                aria-hidden="true"
+                class="chakra-form__required-indicator css-0"
+                role="presentation"
+              >
+                *
+              </span>
+            </label>
+            <input
+              aria-required="true"
+              class="chakra-input css-0"
+              id="name"
+              name="name"
+              placeholder="name"
+              required=""
+              value=""
+            />
+          </div>
+          <div
+            class="chakra-form-control css-g89h0y"
+            role="group"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+              for="description"
+              id="field-:r1a:-label"
+            >
+              Description
+              <span
+                aria-hidden="true"
+                class="chakra-form__required-indicator css-0"
+                role="presentation"
+              >
+                *
+              </span>
+            </label>
+            <textarea
+              aria-required="true"
+              class="chakra-textarea css-0"
+              id="description"
+              name="description"
+              placeholder="description"
+              required=""
+            />
+          </div>
+          <div
+            class="chakra-form-control css-g89h0y"
+            role="group"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+              for="contractAddress"
+              id="field-:r1b:-label"
+            >
+              Collection
+              <span
+                aria-hidden="true"
+                class="chakra-form__required-indicator css-0"
+                role="presentation"
+              >
+                *
+              </span>
+            </label>
+            <div
+              class="chakra-select__wrapper css-42b2qy"
+            >
+              <select
+                aria-required="true"
+                class="chakra-select css-1ik61og"
+                id="contractAddress"
+                name="contractAddress"
+                required=""
+              >
+                <option
+                  value="mockedAddress"
+                >
+                  Shopychange Storage
+                   - 
+                  SCS
+                </option>
+                <option
+                  value="mockedAddress2"
+                >
+                  Contract
+                   - 
+                  symbol
+                </option>
+              </select>
+              <div
+                class="chakra-select__icon-wrapper css-162mkon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="chakra-select__icon"
+                  focusable="false"
+                  role="presentation"
+                  style="width: 1em; height: 1em; color: currentColor;"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-g89h0y"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+            >
+              Attributes
+            </label>
+            <div
+              class="css-bj7zsy"
+            >
+              <div
+                class="css-q6ik5y"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <input
+                    class="chakra-input css-0"
+                    id="attributes[0].trait_type"
+                    name="attributes[0].trait_type"
+                    placeholder="trait type"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="css-17xejub"
+              />
+              <div
+                class="css-q6ik5y"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <input
+                    class="chakra-input css-0"
+                    id="attributes[0].value"
+                    name="attributes[0].value"
+                    placeholder="value"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="css-1r5iisr"
+              >
+                <div
+                  class="css-cse5we"
+                >
+                  <svg
+                    aria-label="remove-attribute"
+                    fill="#FF4500"
+                    height="80%"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="80%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-98x68k"
+            >
+              <div
+                class="css-913hcs"
+              >
+                <svg
+                  aria-label="add-attribute"
+                  baseProfile="tiny"
+                  fill="#228B22"
+                  height="100%"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.2"
+                  viewBox="0 0 24 24"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 10h-4v-4c0-1.104-.896-2-2-2s-2 .896-2 2l.071 4h-4.071c-1.104 0-2 .896-2 2s.896 2 2 2l4.071-.071-.071 4.071c0 1.104.896 2 2 2s2-.896 2-2v-4.071l4 .071c1.104 0 2-.896 2-2s-.896-2-2-2z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="chakra-form-control css-pb69ky"
+            role="group"
+          >
+            <label
+              class="chakra-checkbox css-1elxtiq"
+            >
+              <input
+                aria-disabled="false"
+                aria-invalid="false"
+                class="chakra-checkbox__input"
+                id="useDefaultRoyalties"
+                name="useDefaultRoyalties"
+                style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+                type="checkbox"
+                value="false"
+              />
+              <span
+                aria-hidden="true"
+                class="chakra-checkbox__control css-dnty2r"
+              />
+              <span
+                class="chakra-checkbox__label css-1oeb2oe"
+              >
+                Use default royalties
+              </span>
+            </label>
+          </div>
+          <div
+            class="css-g89h0y"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+            >
+              Royalties
+            </label>
+            <div
+              class="css-bj7zsy"
+            >
+              <div
+                class="css-6gs9hh"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <input
+                    class="chakra-input css-0"
+                    id="royalties[0].receiver"
+                    name="royalties[0].receiver"
+                    placeholder="Receiver"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="css-17xejub"
+              />
+              <div
+                class="css-1di0xk1"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <div
+                    class="chakra-numberinput css-e69dqy"
+                  >
+                    <input
+                      aria-readonly="false"
+                      aria-required="false"
+                      aria-valuemax="100"
+                      aria-valuemin="0"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class="chakra-numberinput__field css-8atqhb"
+                      id="royalties[0].share"
+                      inputmode="decimal"
+                      name="royalties[0].share"
+                      pattern="[0-9]*(.[0-9]+)?"
+                      placeholder="Share (%)"
+                      role="spinbutton"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-1r5iisr"
+              >
+                <div
+                  class="css-cse5we"
+                >
+                  <svg
+                    aria-label="remove-royalty"
+                    fill="#FF4500"
+                    height="80%"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="80%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-98x68k"
+            >
+              <div
+                class="css-913hcs"
+              >
+                <svg
+                  aria-label="add-royalty"
+                  baseProfile="tiny"
+                  fill="#228B22"
+                  height="100%"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.2"
+                  viewBox="0 0 24 24"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 10h-4v-4c0-1.104-.896-2-2-2s-2 .896-2 2l.071 4h-4.071c-1.104 0-2 .896-2 2s.896 2 2 2l4.071-.071-.071 4.071c0 1.104.896 2 2 2s2-.896 2-2v-4.071l4 .071c1.104 0 2-.896 2-2s-.896-2-2-2z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-gmuwbf"
+          >
+            <button
+              class="chakra-button css-187rakm"
+              data-testid="onClick-button"
+              style="white-space: initial;"
+              type="submit"
+            >
+              Create NFT
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

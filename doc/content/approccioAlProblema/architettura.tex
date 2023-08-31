@@ -1,0 +1,30 @@
+\section{Architettura}
+\label{sec:architettura}
+
+Di seguito viene presentata l'architettura del sistema prodotto. La figura \ref{fig:architettura} mostra come le varie componenti interagiscono tra loro.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{images/infrastruttura}
+    \caption{Architettura del sistema}
+    \label{fig:architettura}
+\end{figure}
+
+Come si può notare il sistema è composto da diversi componenti chiave. 
+
+Il \textit{frontend} è stato sviluppato utilizzando il framework \textit{React} e il linguaggio di programmazione \textit{Typescript}. Esso si occupa di gestire l'interazione con l'utente, in particolare si occupa di richiedere i dati al backend e di mostrare all'utente le varie informazioni, nonché di inviare le richieste di interazione alla blockchain.
+
+Come è osservabile dalla figura \ref{fig:architettura}, il frontend comunica con il backend tramite delle API di tipo GraphQL. Queste API sono state sviluppate utilizzando il framework \textit{Django} e il linguaggio di programmazione \textit{Python}. Il backend si occupa di gestire le richieste provenienti dal frontend, ovvero di recuperare i dati presenti nella blockchain e nel database, nonché di elaborarli e restituirli al frontend.
+
+Tramite l'utilizzo del framework \textit{Hardhat} è stato possibile sviluppare gli smart contracts, i quali sono stati scritti utilizzando il linguaggio 
+\textit{Solidity}. Inoltre, sono stati compilati e distribuiti sulla blockchain di test \textit{Sepolia}. Essi si occupano di gestire la logica di \textit{business}, in particolare la creazione, modifica e vendita di un asset, nonché la gestione del revenue share. In aggiunta, il framework permette di creare un'istanza di un nodo locale, così da poter utilizzare una blockchain locale.
+
+Infine, il database è \textit{MongoDB}, ovvero un database di tipo \textit{NoSQL} basato su documenti. All'interno di esso vengono salvati unicamente alcuni dati di personalizzazione utente del marketplace.
+
+In figura \ref{fig:architettura}, sono presenti due frecce tratteggiate, di seguito la loro spiegazione:
+\begin{itemize}
+    \item \textit{(1)}: L'esperienza utente è completamente compatibile sia con \textit{Desktop Browser} che con \textit{Mobile Browser}, tuttavia la connessione di un \textit{wallet} su \textit{Mobile Browser} presenta una funzionalità ridotta. La causa potrebbe essere dovuta da un problema di \textit{deep linking mobile}, ovvero la possibilità di aprire una comunicazione diretta tra due applicazioni, in questo caso tra il \textit{wallet} e il \textit{browser}. Questo problema è stato riscontrato utilizzando il \textit{wallet} \textit{MetaMask} su dispositivo \textit{Android}. Una possibile soluzione è quella di mettere in sicurezza l'applicativo frontend tramite l'utilizzo di certificati, in modo da poter utilizzare il protocollo \textit{https}.  
+    \item \textit{(2)}: Non è attualmente presente un database di \textit{caching} dei dati presenti nella blockchain. In caso di forte utilizzo del marketplace in una blockchain pubblica e principale, come Ethereum mainnet, i tempi di risposta potrebbero essere molto alti. Perciò, sarebbe necessario implementare un database di questo tipo, un possibile candidato è \textit{Redis}.
+\end{itemize}
+
+Maggiori informazioni riguardo ad ogni componente e le motivazioni dietro le scelte effettuate sono presenti nei capitoli successivi.

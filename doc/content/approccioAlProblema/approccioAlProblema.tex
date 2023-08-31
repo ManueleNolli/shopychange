@@ -1,0 +1,54 @@
+\chapter{Approccio al problema}
+\label{sec:approccioProblema}
+
+Nel seguente capitolo verranno analizzati i requisiti del sistema, le scelte tecnologiche e implementative, nonché la metodologia di sviluppo adottata. 
+
+Per affrontare il \hyperref[sec:problema]{problema} sono stati analizzati i principali \textit{marketplace decentralizzati} esistenti, in particolare \textit{OpenSea}\footnote{https://opensea.io/} e \textit{Rarible}\footnote{https://rarible.com/}, per comprendere le principali funzionalità e caratteristiche che un \textit{marketplace} dovrebbe avere.
+
+Più in dettaglio, sono stati analizzati i seguenti aspetti:
+\begin{itemize}
+    \item Facilità d'uso
+    \item Funzionalità disponibili
+    \begin{itemize}
+        \item Creazione di un asset
+        \item Acquisto di un asset
+        \item Vendita di un asset
+        \item Modifica o cancellazione della vendita di un asset
+    \end{itemize}
+    \item Revenue share
+    \item Interoperabilità con altri marketplace
+    \item Conformità all'ideologia di decentralizzazione
+    \item Recupero dei dati dalla blockchain
+\end{itemize}
+
+Come concordato con il relatore, è stato deciso di creare un marketplace che rispetti al meglio i principi di decentralizzazione, così da essere il più possibile trasparente. 
+
+La scelta delle tecnologie utilizzate è stata fatta dallo studente, con l'approvazione del relatore, in modo da poter acquisire nuove conoscenze e competenze in ambito di sviluppo di applicazioni web (backend e frontend), di smart contracts e blockchain.
+
+Il progetto realizzato è una \textit{Decentralized Appllication} (dApp), ovvero un'applicazione che utilizza la blockchain per fornire funzionalità e servizi. In contrasto alle applicazioni tradizionali che operano su server centralizzati, le dApp operano su una rete decentralizzata, consentendo miglioramenti come maggiore sicurezza dei dati, resistenza alla censura e trasparenza nelle operazioni. \cite{bitpanda-dApp}
+
+La \textit{Decentralized Appllication} realizzata è composta da diversi componenti, ognuna delle quali è stata sviluppata utilizzando tecnologie e linguaggi di programmazione differenti, in particolare la soluzione realizzata è composta da:
+
+\begin{itemize}
+    \item \textit{Backend}: Si occupa della gestione delle richieste provenienti dal frontend, in particolare del recupero dei dati presenti nella blockchain e nel database, nonché della loro elaborazione e restituzione al frontend.
+    \item \textit{Frontend}: Si occupa di gestire l'interazione con l'utente, richiedendo i dati al backend e mostrandoli all'utente, inoltre si occupa di gestire le richieste di interazione con la blockchain.
+    \item \textit{Blockchain / Smart contracts}: \textit{Core} del progetto, più smart contracts si occupano di gestire la logica di \textit{business}, in particolare la creazione, modifica e vendita di un asset, nonché la gestione del revenue share.
+    \item \textit{Database}: All'interno del database vengono salvati unicamente alcuni dati di personalizzazione utente del marketplace.
+\end{itemize}
+
+\input{content/approccioAlProblema/requisiti}
+
+\newpage
+
+\input{content/approccioAlProblema/creazioneNFT}
+\input{content/approccioAlProblema/recuperoDatiBlockchain}
+\input{content/approccioAlProblema/revenueShare}
+\input{content/approccioAlProblema/architettura}
+\input{content/approccioAlProblema/blockchain}
+
+\newpage
+
+\input{content/approccioAlProblema/backend}
+\input{content/approccioAlProblema/frontend}
+\input{content/approccioAlProblema/ulterioriStrumenti}
+\input{content/approccioAlProblema/metodologiaDiSviluppo}

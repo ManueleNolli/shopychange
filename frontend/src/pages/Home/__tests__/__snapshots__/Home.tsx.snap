@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders successfully when connected 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-gmuwbf"
+    >
+      <h2
+        class="chakra-heading css-0"
+      >
+        Market
+      </h2>
+    </div>
+    <div
+      class="css-gmuwbf"
+    >
+      <div
+        data-testid="NFTOrCollectionViewer"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Home renders successfully when not connected 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-gmuwbf"
+    >
+      <h2
+        class="chakra-heading css-0"
+      >
+        Market
+      </h2>
+    </div>
+    <div
+      class="css-gmuwbf"
+    >
+      <p
+        class="chakra-text css-1q7njkh"
+      >
+        Please connect your wallet to view the market
+      </p>
+    </div>
+  </div>
+</div>
+`;

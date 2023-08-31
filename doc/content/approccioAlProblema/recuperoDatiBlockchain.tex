@@ -1,0 +1,13 @@
+\section{Recupero dei dati dalla blockchain}
+\label{sec:recuperoDatiBlockchain}
+
+Le blockchain possono contenere una grande quantità di dati e spesso per recuperare le informazioni di interesse è necessario analizzare l'intera blockchain filtrando le varie transazioni. Per esempio, l'operazione necessaria per recuperare tutti gli NFT presenti in una collezione, consiste nell'analizzare tutti gli eventi di \textit{transfer} emessi e selezionare unicamente quelli destinati ad un indirizzo specifico che non sia lo \textit{zero address}, ovvero l'indirizzo che rappresenta l'assenza di un indirizzo valido.
+
+Come è possibile dedurre, questa semplice operazione può portare ad avere tempi di attesa più lunghi rispetto a quelli di un database tradizionale. 
+
+Per semplicità, all'inizio del progetto è stato scelto di utilizzare un servizio di terze parti per recuperare i dati dalla blockchain. Si è optato per  \textit{Alchemy}\footnote{https://www.alchemy.com/}, il quale tramite alcune API permette di recuperare facilmente i dati necessari. Poichè implementano un sistema di \textit{caching}, i tempi di risposta sono molto più veloci rispetto a quelli che si avrebbero interrogando direttamente la blockchain.
+
+Considerato che, il servizio da loro offerto risulta gratuito fino ad un certo numero di richieste, è stato deciso di utilizzare questo servizio unicamente nella fase iniziale. Inoltre, il servizio presenta alcune limitazioni e incongruenze sui dati. Per esempio, anche se un NFT è stato \textit{burned}, ovvero distrutto, il servizio continua a restituire l'informazione che l'NFT è ancora presente nella collezione.
+
+Perciò, per avere un controllo maggiore sui dati, è stato implementato un sistema di recupero dati che non dipendesse da servizi esterni. Come verrà analizzato più in dettaglio nel capitolo \hyperref[sec:backend]{\textit{Backend}}, sono state implementate delle API che permettono di recuperare i dati direttamente dalla blockchain. Per fare ciò, è stato necessario imporre una limitazione sui dati che è possibile recuperare. In particolare, è possibile recuperare i dati di una collezione solamente se si conosce l'indirizzo del contratto che la rappresenta. Infatti, all'interno del interfaccia grafica è possibile gestire gli indirizzi delle collezioni che si vogliono monitorare. 
+

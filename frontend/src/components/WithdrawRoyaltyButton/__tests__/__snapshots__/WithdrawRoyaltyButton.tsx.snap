@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WithdrawRoyaltyButton renders WithdrawRoyaltyButton component, with payment splitter 1`] = `
+<div>
+  <div
+    data-testid="RoyaltiesCheck"
+  >
+     
+    <button
+      class="chakra-button css-7v8t3l"
+      data-testid="onClick-button"
+      style="white-space: initial;"
+      type="button"
+    >
+      Withdraw 0 ETH
+    </button>
+     
+  </div>
+</div>
+`;
+
+exports[`WithdrawRoyaltyButton renders WithdrawRoyaltyButton component, without payment splitter 1`] = `<div />`;

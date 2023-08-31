@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriceDistrubution render correctly not owner 1`] = `
+<div>
+  <div
+    class="css-1txxpn"
+  >
+    <h2
+      class="chakra-heading css-1fa2p9l"
+    >
+      Price Distribution
+    </h2>
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-1upb9tn"
+    />
+    <div
+      class="chakra-table__container css-178nss3"
+    >
+      <table
+        class="chakra-table css-0"
+      >
+        <thead
+          class="css-0"
+        >
+          <tr
+            class="css-0"
+          >
+            <th
+              class="css-0"
+            >
+              To
+            </th>
+            <th
+              class="css-0"
+            >
+              Percentage
+            </th>
+            <th
+              class="css-0"
+            >
+              Amount (eth)
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="css-0"
+        >
+          <tr
+            class="css-0"
+          >
+            <td
+              class="css-0"
+            >
+              Shopychange
+            </td>
+            <td
+              class="css-0"
+            >
+              5
+            </td>
+            <td
+              class="css-0"
+            />
+          </tr>
+          <tr
+            class="css-0"
+          >
+            <td
+              class="css-0"
+            >
+              <i
+                class="chakra-text css-1b1uf4q"
+              >
+                The remaining 
+                95
+                % is separated as follows
+              </i>
+            </td>
+          </tr>
+          <tr
+            class="css-0"
+          >
+            <td
+              class="css-0"
+            >
+              Owner
+            </td>
+            <td
+              class="css-0"
+            >
+              100
+            </td>
+            <td
+              class="css-0"
+            />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-1upb9tn"
+    />
+  </div>
+</div>
+`;
+
+exports[`PriceDistrubution render correctly owner 1`] = `
+<div>
+  <div
+    class="css-1txxpn"
+  >
+    <h2
+      class="chakra-heading css-1fa2p9l"
+    >
+      Price Distribution
+    </h2>
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-1upb9tn"
+    />
+    <div
+      class="chakra-table__container css-178nss3"
+    >
+      <table
+        class="chakra-table css-0"
+      >
+        <thead
+          class="css-0"
+        >
+          <tr
+            class="css-0"
+          >
+            <th
+              class="css-0"
+            >
+              To
+            </th>
+            <th
+              class="css-0"
+            >
+              Percentage
+            </th>
+            <th
+              class="css-0"
+            >
+              Amount (eth)
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="css-0"
+        >
+          <tr
+            class="css-0"
+          >
+            <td
+              class="css-0"
+            >
+              Shopychange
+            </td>
+            <td
+              class="css-0"
+            >
+              5
+            </td>
+            <td
+              class="css-0"
+            />
+          </tr>
+          <tr
+            class="css-0"
+          >
+            <td
+              class="css-0"
+            >
+              <i
+                class="chakra-text css-1b1uf4q"
+              >
+                The remaining 
+                95
+                % is separated as follows
+              </i>
+            </td>
+          </tr>
+          <tr
+            class="css-0"
+          >
+            <td
+              class="css-0"
+            >
+              You
+            </td>
+            <td
+              class="css-0"
+            >
+              100
+            </td>
+            <td
+              class="css-0"
+            />
+          </tr>
+          <tr
+            class="css-0"
+          >
+            <td
+              class="css-0"
+            >
+               
+              mockedAddress
+            </td>
+            <td
+              class="css-0"
+            >
+              10
+            </td>
+            <td
+              class="css-0"
+            />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr
+      aria-orientation="horizontal"
+      class="chakra-divider css-1upb9tn"
+    />
+  </div>
+</div>
+`;

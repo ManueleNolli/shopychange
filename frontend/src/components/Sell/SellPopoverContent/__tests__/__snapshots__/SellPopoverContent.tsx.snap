@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellPopoverContent renders correctly isApproved = false 1`] = `
+<div>
+  <div
+    data-testid="ModalContent"
+  >
+    <div
+      class="css-1wjy6p3"
+    >
+      <div
+        class="css-17xejub"
+      />
+      <div
+        class="chakra-container css-11uhf22"
+      >
+        <h2
+          class="chakra-heading css-xi606m"
+        >
+          Are you sure you want to sell 
+          <i
+            class="chakra-text css-0"
+          >
+            Test NFT
+          </i>
+          ?
+        </h2>
+      </div>
+      <div
+        class="css-17xejub"
+      />
+      <div
+        class="css-1ozwi6w"
+      >
+        <div
+          class="chakra-button__group css-s2zvk0"
+          data-orientation="horizontal"
+          role="group"
+        >
+          <button
+            class="chakra-button css-ha7ah3"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Approve
+          </button>
+          <button
+            class="chakra-button css-lnz0i6"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+      <div
+        class="css-17xejub"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SellPopoverContent renders correctly isApproved = true 1`] = `
+<div>
+  <div
+    data-testid="ModalContent"
+  >
+    <div
+      class="css-1wjy6p3"
+    >
+      <div
+        class="css-17xejub"
+      />
+      <div
+        class="chakra-container css-11uhf22"
+      >
+        <h2
+          class="chakra-heading css-xi606m"
+        >
+          Are you sure you want to sell 
+          <i
+            class="chakra-text css-0"
+          >
+            Test NFT
+          </i>
+          ?
+        </h2>
+      </div>
+      <div
+        class="css-17xejub"
+      />
+      <div
+        class="css-gmuwbf"
+      >
+        <div
+          class="chakra-numberinput css-e69dqy"
+        >
+          <input
+            aria-valuemax="9007199254740991"
+            aria-valuemin="0"
+            aria-valuenow="0"
+            aria-valuetext="0.00"
+            autocomplete="off"
+            autocorrect="off"
+            class="chakra-numberinput__field css-fzwid6"
+            data-testid="price-input"
+            inputmode="decimal"
+            pattern="[0-9]*(.[0-9]+)?"
+            role="spinbutton"
+            type="text"
+            value="0.00"
+          />
+        </div>
+        <p
+          class="chakra-text css-td3r9l"
+        >
+          eth
+        </p>
+      </div>
+      <div
+        class="css-17xejub"
+      />
+      <div
+        data-testid="PriceDistribution"
+      />
+      <div
+        class="css-17xejub"
+      />
+      <div
+        class="css-1ozwi6w"
+      >
+        <div
+          class="chakra-button__group css-s2zvk0"
+          data-orientation="horizontal"
+          role="group"
+        >
+          <button
+            class="chakra-button css-79ap6m"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Sell
+          </button>
+          <button
+            class="chakra-button css-lnz0i6"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+      </div>
+      <div
+        class="css-17xejub"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SellOrIsForSale renders correctly if listed 1`] = `
+<div>
+  <button
+    class="chakra-button css-1l55t55"
+    data-testid="onClick-button"
+    disabled=""
+    style="white-space: initial;"
+    type="button"
+  >
+    For Sale
+  </button>
+</div>
+`;
+
+exports[`SellOrIsForSale renders correctly if not listed 1`] = `
+<div>
+  <div
+    data-testid="SellManager"
+  />
+</div>
+`;

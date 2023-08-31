@@ -1,0 +1,264 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountPopover renders correctly 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <button
+      aria-controls="popover-content-:r1:"
+      aria-expanded="false"
+      aria-haspopup="dialog"
+      aria-label="Account"
+      class="chakra-button css-1ke86mo"
+      data-testid="account-button"
+      id="popover-trigger-:r1:"
+      type="button"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 448 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+        />
+      </svg>
+    </button>
+    <div
+      class="chakra-popover__popper css-0"
+      style="visibility: hidden; position: absolute; min-width: max-content; inset: 0 auto auto 0;"
+    >
+      <section
+        class="chakra-popover__content css-fvx4v9"
+        id="popover-content-:r1:"
+        role="dialog"
+        style="transform-origin: var(--popper-transform-origin); opacity: 0; visibility: hidden; transform: scale(0.95) translateZ(0);"
+        tabindex="-1"
+      >
+        <div
+          class="chakra-stack css-8g8ihq"
+        >
+          <a
+            class="chakra-link css-0"
+            href="/account"
+            style="text-decoration: none;"
+          >
+            <div
+              class="css-10tm5g0"
+              role="group"
+            >
+              <div
+                class="css-k008qs"
+              >
+                <div
+                  class="css-avkhbc"
+                  data-testid="icon-Profile"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="css-1vou5f1"
+                >
+                  <p
+                    class="chakra-text css-wu0fx1"
+                    data-testid="label-Profile"
+                  >
+                    Profile
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            class="chakra-link css-0"
+            href="/account/watchlist"
+            style="text-decoration: none;"
+          >
+            <div
+              class="css-10tm5g0"
+              role="group"
+            >
+              <div
+                class="css-k008qs"
+              >
+                <div
+                  class="css-avkhbc"
+                  data-testid="icon-Watchlist"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="css-1vou5f1"
+                >
+                  <p
+                    class="chakra-text css-wu0fx1"
+                    data-testid="label-Watchlist"
+                  >
+                    Watchlist
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            class="chakra-link css-0"
+            href="/account/create"
+            style="text-decoration: none;"
+          >
+            <div
+              class="css-10tm5g0"
+              role="group"
+            >
+              <div
+                class="css-k008qs"
+              >
+                <div
+                  class="css-avkhbc"
+                  data-testid="icon-Create"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="css-1vou5f1"
+                >
+                  <p
+                    class="chakra-text css-wu0fx1"
+                    data-testid="label-Create"
+                  >
+                    Create
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a
+            class="chakra-link css-0"
+            href="/account/personalize"
+            style="text-decoration: none;"
+          >
+            <div
+              class="css-10tm5g0"
+              role="group"
+            >
+              <div
+                class="css-k008qs"
+              >
+                <div
+                  class="css-avkhbc"
+                  data-testid="icon-Language"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="css-1vou5f1"
+                >
+                  <p
+                    class="chakra-text css-wu0fx1"
+                    data-testid="label-Language"
+                  >
+                    Language
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div
+            class="css-1m8iww1"
+          >
+            <div
+              class="css-10tm5g0"
+              role="group"
+            >
+              <div
+                class="css-k008qs"
+              >
+                <div
+                  class="css-avkhbc"
+                  data-testid="icon-Disconnect"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 448 512"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="css-1vou5f1"
+                >
+                  <p
+                    class="chakra-text css-wu0fx1"
+                    data-testid="label-Disconnect"
+                  >
+                    Disconnect
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;

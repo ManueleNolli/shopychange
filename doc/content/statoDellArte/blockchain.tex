@@ -1,0 +1,99 @@
+\section{Blockchain}
+\label{sec:blockchain}
+
+La tecnologia \textit{Blockchain} è nota come \textit{registro distribuito}, essa consiste in una rete peer-to-peer di computer collocati globalmente che, grazie ad un meccanismo di consenso decentralizzato, permette di creare un registro condiviso strutturato a blocchi, sicuro ed immutabile. \cite{binance-blockchain}
+
+Nel seguente capitolo verranno approfonditi i termini sopra citati, in modo da comprendere meglio il funzionamento della tecnologia \textit{Blockchain}.
+
+I computer che partecipano alla \textit{Blockchain}, chiamati \textit{nodi}, collaborano per creare e mantenere un registro condiviso, il quale contiene tutte le transazioni effettuate all'interno della rete. Il termine \textit{Blockchain} prende il nome dalla sua struttura, ovvero un registro organizzato in blocchi concatenati tra loro, come mostrato in figura \ref{fig:blockchain-hash}. \cite{binance-blockchain}.
+
+Ogni blocco contiene diverse informazioni, tra cui il numero del blocco, la data di creazione, le transazioni effettuate e l'hash del blocco precedente. \cite{binance-block} 
+
+Con il termine \textit{transazione} si intende lo spostamento di un asset, che può essere una valuta nativa della \textit{Blockchain} oppure un token. \cite{ibm-blockchain} 
+
+Il valore di \textit{hash} è un insieme di tutte le informazioni presenti in un blocco che vengono crittografate tramite funzioni matematiche. Questo valore è cruciale, dal momento che permette di rendere i blocchi una vera e propria catena. Così come rende estremamente difficile la modifica della \textit{Blockchain}, poiché il tentativo di alterazione di una transazione comporterebbe la modifica dell'hash del blocco e di conseguenza di tutti i blocchi successivi. \cite{bitsmap-block}
+Per esempio, facendo riferimento alla figura \ref{fig:blockchain-hash} se si volesse modificare una transazione presente nel blocco uno, si dovrebbe modificare anche l'hash del blocco due e dunque anche del blocco tre.
+
+Nel momento in cui un blocco viene creato e confermato, come approfondito nel paragrafo \hyperref[sec:consensoDistribuito]{\textit{Meccanismi di consenso ditribuito}}, le informazioni interne ad esso diventano immutabili, cioè non modificabili. \cite{binance-block}
+
+In aggiunta, essendo la \textit{Blockchain} distribuita e replicata tra i diversi nodi la sua sicurezza è garantita. Un tentativo di alterazione di un blocco in una copia della \textit{Blockchain} dovrebbe essere replicato anche in tutti gli altri nodi della rete per essere considerato valido. \cite{bitsmap-block}
+
+Infatti, la tecnologia \textit{Blockchain} è definita come \textit{tamper proof} e \textit{tamper evident}, ciò significa che la tecnologia è resiliente alle manipolazioni e che un tentativo di manomissione risulterebbe evidente. \cite{coinmarket-tamperProof}
+
+Entrando più in dettaglio sul componente nodo, le tipologie esistenti sono di vario tipo. Tuttavia, lo scopo di ciascun nodo è quello di partecipare in modo attivo all'elaborazione e convalidazione di nuovi blocchi. I nodi definiti come \textit{full node}  possiedono una copia dell'intera \textit{Blockchain}, all'interno del loro spazio su disco.
+Una seconda tipologia di nodo, chiamato \textit{light node}, ha lo scopo di velocizzare la rete, invece di scaricare e possedere l'intera \textit{Blockchain} salva lo stretto necessario per elaborare le transazioni. \cite{originstamp-nodi}
+
+I nodi sono una componente fondamentale della \textit{Blockchain}, in quanto le consentono di essere sistemi \textit{borderless} (senza confini imposti dall'uomo, come i vari confini nazionali) e senza necessità di un intermediario nelle operazioni svolte. \cite{binance-blockchain}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.35]{images/blockchain-hash}
+\caption{Connessione tra \emph{blocchi}}
+\label{fig:blockchain-hash}
+\end{figure}
+
+Una fase chiave in una \textit{Blockchain} è concordare l'aggiunta di nuovi blocchi. Non essendoci un server centralizzato, saranno i nodi tramite un meccanismo di \textit{consenso distribuito}, come approfondito nel paragrafo \hyperref[sec:consensoDistribuito]{\textit{Meccanismi di consenso ditribuito}}, 
+a validare un nuovo stato della blockchain basandosi sul sistema di \textit{Byzantine Fault Tolerance} (BFT).\cite{binance-bft}
+
+In sintesi, la tecnologia \textit{Blockchain} rappresenta un registro distribuito sicuro e resiliente, la cui architettura decentralizzata e meccanismi di consenso la rendono un'innovazione significativa per numerose applicazioni.
+
+\subsection{Wallet}
+\label{sec:wallet}
+
+Le maggiori \textit{Blockchain} come Bitcoin e Ethereum utilizzano un sistema crittografico con una coppia di chiave pubblica e privata. I \textit{wallet} sono dei sistemi che permettono agli utenti di interagire con le \textit{Blockchain} e quelli più utilizzati facilitano una serie di operazioni di comunicazione con le \textit{Blockchain}. \cite{ledger-privatekey}
+        
+La \textit{chiave privata} è segreta e viene utilizzata per generare la chiave pubblica. \cite{bitpanda-privatekey}
+
+Come descritto nel capitolo \hyperref[sec:blockchain]{\textit{Blockchain}}, ogni blocco contiene diverse transazioni, che a loro volta contengono principalmente tre informazioni:
+\begin{itemize}
+    \item Un \textit{mittente}, il quale tramite la sua chiave privata cifra l'intera transazione. 
+    \item L'indirizzo del \textit{destinatario}, che viene generato tramite la chiave pubblica.
+    \item L'azione che vuole svolgere, per esempio il trasferimento di una criptovaluta.
+\end{itemize}
+
+Il meccanismo appena descritto può essere riassunto grazie alla Figura \ref{fig:privatePublicKeys}. \cite{ledger-privatekey}
+Tramite la cifratura della transazione, la blockchain può verificare che il mittente sia l'unico con il diritto di richiedere l'operazione che vuole svolgere. \cite{bitpanda-privatekey}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.15]{images/PrivatePublicKeys}
+\caption{Esempio di  \emph{transazione}}
+\label{fig:privatePublicKeys}
+\end{figure}
+
+I \textit{wallet} sono dei sistemi sicuri che permettono di tenere riservate ed esclusivamente a conoscenza solo del creatore una o più chiavi private.
+Inoltre, spesso forniscono informazioni utili come il bilancio, uno storico delle transazioni e molto altro.
+
+La generazione di un wallet, con il suo indirizzo pubblico corrispondente, inizia con la creazione di una chiave privata a 64 caratteri (64 hexadecimal) casuali.
+In seguito con un algoritmo basato sulle curve ellittiche (ECDSA) verrà generata la chiave pubblica. Essendo un algoritmo di cifratura asimmetrica, non è possibile, o computazionalmente molto complesso risalire alla chiave privata tramite la chiave pubblica. \cite{ledger-privatekey}
+
+Infine, l'indirizzo del destinatario utilizzato per le transazioni è una forma rappresentativa della chiave pubblica, e prende il nome di \textit{address}.
+In analogia al mondo reale si potrebbe dire che la chiave privata è il pin che permette l'accesso al proprio conto in banca, mentre la chiave pubblica l'indirizzo IBAN. \cite{blockchain-chiavi}
+
+In generale, i wallet sono suddivisi in due principali categorie, \textit{Custodial} e \textit{Non custodial}.
+
+I wallet di tipo custodial sono controllati da terze parti, in questo caso l'utente si affida alla sicurezza di questa terza parte per proteggere i propri fondi. Diversamente,  i wallet non custodial consentono agli utenti di mantenere il controllo delle proprie chiavi, senza doverle condividere con nessuno. Questo rende i non custodial wallet più sicuri rispetto ai wallet custodial, ma richiedono una maggiore competenza tecnica per gestirli correttamente.
+
+In aggiunta, i wallet possono essere separati ulteriormente, tra la categoria di wallet fisici oppure basati su software.
+I wallet basati su software hanno una maggior connessione ad internet e sono solitamente installati su computer utilizzati per vari scopi, quindi più vulnerabili agli attacchi, mentre i wallet fisici sono offline e separati, quindi più sicuri.
+I \textit{software-based wallets} possono essere \textit{web-based}, mobile o desktop. Mentre i \textit{physical wallets} possono essere \textit{paper wallets} o \textit{hardware wallets} come una chiavetta usb o un dispositivo Bluetooth. \cite{custodial-wallet}
+
+\subsection{Criptovalute}
+\label{sec:criptovalute}
+
+Le criptovalute sono una forma di denaro digitale che utilizza la crittografia per garantire la sicurezza delle transazioni e il controllo della creazione di nuove unità di valuta. 
+Esse vengono utilizzate per effettuare transazioni all'interno di una blockchain, come ad esempio il trasferimento di denaro da un utente ad un altro, senza la necessità di un intermediario. \cite{binance-cryptocurrency}
+
+Ogni blockchain ha la propria criptovaluta nativa, alcune delle più famose per capitalizzazione di mercato sono \textit{Bitcoin} e \textit{Ethereum} che sommate raggiungono una capitalizzazione di mercato di circa 1.000 miliardi di dollari. \cite{coinmarketcap}
+
+\subsubsection{Stablecoin}
+Le Stablecoin sono particolari criptovalute progettate appositamente per mantenere un valore stabile, questo è possibile attraverso attività sottostanti, come valute fiat, materie prime oppure algoritmica. Esse mirano a limitare l'alta volatilità del mercato delle criptovalute, rendendole più adatte ai pagamenti. Per questo motivo, la domanda di valute stabili è in forte crescita in tutto il mondo. \cite{swiss-stablecoin}
+Infatti, le stablecoin hanno attirato l'interesse delle autorità di regolamentazione in tutto il mondo grazie al loro mix unico di fiat e criptovalute. Poiché sono progettate per mantenere un prezzo stabile, possono facilitare transazioni internazionali ad alta velocità a basso costo. \cite{binance-stablecoin}
+
+\newpage
+
+\input{content/statoDellArte/blockchain_MCD}
+
+\input{content/statoDellArte/blockchain_etherum}
+
+\input{content/statoDellArte/blockchain_ipfs}

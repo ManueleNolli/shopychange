@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShadowButton renders correctly on Loading 1`] = `
+<div>
+  <button
+    class="chakra-button css-15109qs"
+    data-loading=""
+    data-testid="loading-button"
+    disabled=""
+    type="button"
+  >
+    <div
+      class="chakra-button__spinner chakra-button__spinner--start css-1vsp78f"
+    >
+      <span
+        style="display: inherit;"
+      >
+        <span
+          style="display: inline-block; background-color: white; width: 8px; height: 8px; margin: 2px; border-radius: 100%; animation: react-spinners-BeatLoader-beat 0.7s 0s infinite linear; animation-fill-mode: both;"
+        />
+        <span
+          style="display: inline-block; background-color: white; width: 8px; height: 8px; margin: 2px; border-radius: 100%; animation: react-spinners-BeatLoader-beat 0.7s 0.35s infinite linear; animation-fill-mode: both;"
+        />
+        <span
+          style="display: inline-block; background-color: white; width: 8px; height: 8px; margin: 2px; border-radius: 100%; animation: react-spinners-BeatLoader-beat 0.7s 0s infinite linear; animation-fill-mode: both;"
+        />
+      </span>
+    </div>
+    <span
+      class="css-q7lffx"
+    />
+  </button>
+</div>
+`;
+
+exports[`ShadowButton renders correctly on not Loading 1`] = `
+<div>
+  <button
+    class="chakra-button css-rjyonm"
+    data-testid="onClick-button"
+    style="white-space: initial;"
+    type="button"
+  />
+</div>
+`;

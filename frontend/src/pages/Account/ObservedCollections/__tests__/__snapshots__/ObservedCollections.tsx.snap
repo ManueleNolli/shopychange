@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ObservedCollections render correctly 1`] = `
+<div>
+  <div
+    class="css-1g9j6we"
+  >
+    <div
+      class="css-gmuwbf"
+    >
+      <form
+        action="#"
+      >
+        <div
+          class="css-jzuumy"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+          >
+            Royalties
+          </label>
+          <div
+            class="css-bj7zsy"
+          >
+            <div
+              class="css-13phf6t"
+            >
+              <div
+                class="chakra-form-control css-0"
+                role="group"
+              >
+                <input
+                  class="chakra-input css-0"
+                  id="observedCollections[0]"
+                  name="observedCollections[0]"
+                  placeholder="Collection Address"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="css-1dortbl"
+            >
+              <div
+                class="css-cse5we"
+              >
+                <svg
+                  aria-label="remove-address"
+                  fill="#FF4500"
+                  height="80%"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="80%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-98x68k"
+          >
+            <div
+              class="css-913hcs"
+            >
+              <svg
+                aria-label="add-address"
+                baseProfile="tiny"
+                fill="#228B22"
+                height="100%"
+                stroke="currentColor"
+                stroke-width="0"
+                version="1.2"
+                viewBox="0 0 24 24"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 10h-4v-4c0-1.104-.896-2-2-2s-2 .896-2 2l.071 4h-4.071c-1.104 0-2 .896-2 2s.896 2 2 2l4.071-.071-.071 4.071c0 1.104.896 2 2 2s2-.896 2-2v-4.071l4 .071c1.104 0 2-.896 2-2s-.896-2-2-2z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="css-gmuwbf"
+        >
+          <button
+            class="chakra-button css-g5wf5l"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="submit"
+          >
+            Update Observed Collections
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

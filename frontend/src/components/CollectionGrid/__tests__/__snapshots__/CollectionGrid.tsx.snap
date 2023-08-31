@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollectionGrid renders CollectionGrid component 1`] = `
+<div>
+  <div
+    class="css-1kxrbkv"
+  >
+    <a
+      class="chakra-link css-0"
+      to="/0x0000000000"
+    >
+      <h2
+        class="chakra-heading css-0"
+      >
+        Test Collection
+      </h2>
+    </a>
+    <div
+      class="css-xbmy3v"
+    >
+      <div
+        data-testid="NFTCard"
+      />
+      <div
+        data-testid="NFTCard"
+      />
+    </div>
+  </div>
+</div>
+`;

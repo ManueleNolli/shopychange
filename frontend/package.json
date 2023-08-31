@@ -1,0 +1,96 @@
+{
+  "name": "shopychange",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.7.15",
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.7.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.5.4",
+    "@types/node": "^16.18.34",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "@web3modal/ethereum": "2.6.0",
+    "@web3modal/react": "2.6.0",
+    "formik": "^2.4.2",
+    "framer-motion": "^10.15.0",
+    "graphql": "^16.6.0",
+    "nft.storage": "^7.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-redux": "^8.0.7",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "redux": "^4.2.1",
+    "typescript": "^4.9.5",
+    "viem": "^1.2.1",
+    "wagmi": "1.3.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write .",
+    "test:ci": "react-scripts test --watchAll=false --coverage --ci --reporters=default --reporters=jest-junit"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "src/types/",
+      "src/data/",
+      "src/App.tsx",
+      "src/index.tsx",
+      "src/reportWebVitals.ts",
+      "src/services/IPFSService.tsx",
+      "src/services/BackendService.tsx"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "Frontend layer",
+  "main": "index.js",
+  "author": "Manuele Nolli",
+  "license": "MIT",
+  "devDependencies": {
+    "@synthetixio/synpress": "3.5.1",
+    "@testing-library/cypress": "^9.0.0",
+    "@types/mocha": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "cypress": "12.7.0",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-cypress": "^2.14.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest-junit": "^16.0.0",
+    "prettier": "^2.8.8"
+  }
+}

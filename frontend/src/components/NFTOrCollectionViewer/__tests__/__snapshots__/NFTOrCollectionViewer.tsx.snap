@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NFTOrCollectionViewer renders NFTOrCollectionViewer with Collection option correctly 1`] = `
+<div>
+  <div
+    class="css-deelig"
+  >
+    <div
+      class="css-40oaw"
+    >
+      <button
+        class="chakra-button css-1emije3"
+        type="button"
+      >
+        <svg
+          data-testid="button-nfts"
+          fill="currentColor"
+          height="70%"
+          stroke="currentColor"
+          stroke-width="0"
+          style="margin-right: 2px;"
+          viewBox="0 0 24 24"
+          width="70%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M14.67 5v6.5H9.33V5h5.34zm1 6.5H21V5h-5.33v6.5zm-1 7.5v-6.5H9.33V19h5.34zm1-6.5V19H21v-6.5h-5.33zm-7.34 0H3V19h5.33v-6.5zm0-1V5H3v6.5h5.33z"
+          />
+        </svg>
+        NFTs
+      </button>
+      <button
+        class="chakra-button css-18zcl9e"
+        data-active=""
+        type="button"
+      >
+        <svg
+          data-testid="button-collections"
+          fill="currentColor"
+          height="60%"
+          stroke="currentColor"
+          stroke-width="0"
+          style="margin-right: 2px;"
+          viewBox="0 0 24 24"
+          width="60%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 14h4v-4H3v4zm0 5h4v-4H3v4zM3 9h4V5H3v4zm5 5h13v-4H8v4zm0 5h13v-4H8v4zM8 5v4h13V5H8z"
+          />
+        </svg>
+        Collections
+      </button>
+    </div>
+    <div
+      data-testid="CollectionGrid"
+    />
+  </div>
+</div>
+`;
+
+exports[`NFTOrCollectionViewer renders NFTOrCollectionViewer with NFT option correctly 1`] = `
+<div>
+  <div
+    class="css-deelig"
+  >
+    <div
+      class="css-40oaw"
+    >
+      <button
+        class="chakra-button css-1emije3"
+        data-active=""
+        type="button"
+      >
+        <svg
+          data-testid="button-nfts"
+          fill="currentColor"
+          height="70%"
+          stroke="currentColor"
+          stroke-width="0"
+          style="margin-right: 2px;"
+          viewBox="0 0 24 24"
+          width="70%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M14.67 5v6.5H9.33V5h5.34zm1 6.5H21V5h-5.33v6.5zm-1 7.5v-6.5H9.33V19h5.34zm1-6.5V19H21v-6.5h-5.33zm-7.34 0H3V19h5.33v-6.5zm0-1V5H3v6.5h5.33z"
+          />
+        </svg>
+        NFTs
+      </button>
+      <button
+        class="chakra-button css-18zcl9e"
+        type="button"
+      >
+        <svg
+          data-testid="button-collections"
+          fill="currentColor"
+          height="60%"
+          stroke="currentColor"
+          stroke-width="0"
+          style="margin-right: 2px;"
+          viewBox="0 0 24 24"
+          width="60%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 14h4v-4H3v4zm0 5h4v-4H3v4zM3 9h4V5H3v4zm5 5h13v-4H8v4zm0 5h13v-4H8v4zM8 5v4h13V5H8z"
+          />
+        </svg>
+        Collections
+      </button>
+    </div>
+    <div
+      data-testid="NFTCardGrid"
+    />
+  </div>
+</div>
+`;
+
+exports[`NFTOrCollectionViewer renders successfully with empty data 1`] = `
+<div>
+  <div
+    class="css-deelig"
+  >
+    <div
+      class="css-13rbvqk"
+    >
+      <div
+        class="css-gmuwbf"
+      >
+        <p
+          class="chakra-text css-9452eu"
+        >
+          No NFTs found
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NFTOrCollectionViewer return to NFT view 1`] = `
+<div>
+  <div
+    class="css-deelig"
+  >
+    <div
+      class="css-40oaw"
+    >
+      <button
+        class="chakra-button css-1emije3"
+        data-active=""
+        type="button"
+      >
+        <svg
+          data-testid="button-nfts"
+          fill="currentColor"
+          height="70%"
+          stroke="currentColor"
+          stroke-width="0"
+          style="margin-right: 2px;"
+          viewBox="0 0 24 24"
+          width="70%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M14.67 5v6.5H9.33V5h5.34zm1 6.5H21V5h-5.33v6.5zm-1 7.5v-6.5H9.33V19h5.34zm1-6.5V19H21v-6.5h-5.33zm-7.34 0H3V19h5.33v-6.5zm0-1V5H3v6.5h5.33z"
+          />
+        </svg>
+        NFTs
+      </button>
+      <button
+        class="chakra-button css-18zcl9e"
+        type="button"
+      >
+        <svg
+          data-testid="button-collections"
+          fill="currentColor"
+          height="60%"
+          stroke="currentColor"
+          stroke-width="0"
+          style="margin-right: 2px;"
+          viewBox="0 0 24 24"
+          width="60%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 14h4v-4H3v4zm0 5h4v-4H3v4zM3 9h4V5H3v4zm5 5h13v-4H8v4zm0 5h13v-4H8v4zM8 5v4h13V5H8z"
+          />
+        </svg>
+        Collections
+      </button>
+    </div>
+    <div
+      data-testid="NFTCardGrid"
+    />
+  </div>
+</div>
+`;

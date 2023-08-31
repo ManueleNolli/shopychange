@@ -1,0 +1,13 @@
+\subsection{IPFS}
+\label{sec:ipfs}
+Come precedentemente discusso nel capitolo \hyperref[sec:erc721]{\textit{ERC721}}, è spesso necessario conservare dati al di fuori del contesto della blockchain. Questa necessità deriva dal fatto che ogni singola informazione archiviata sulla blockchain comporta dei costi associati alla sua creazione. In questo contesto, l'archiviazione di dati tramite la rete IPFS (InterPlanetary File System) risulta essere una soluzione efficace per diminuire i costi di implementazione e contemporaneamente evitare un eccessiva espansione della rete blockchain.
+
+L'IPFS rappresenta un insieme di protocolli utilizzati per l'organizzazione e il trasferimento efficiente dei dati. La sua struttura si basa su:
+\begin{itemize}
+    \item \textit{content addressing}: un metodo per individuare i dati utilizzando hash crittografici anziché basarsi sugli indirizzi IP.
+    \item \textit{peer-to-peer networking}: un sistema di computer in cui ogni partecipante ha pari capacità ed è in grado di iniziare una sessione di comunicazione.
+\end{itemize}
+
+All'interno dell'infrastruttura IPFS, i dati sono suddivisi in blocchi, a cui avviene assegnato un identificatore univoco chiamato \textit{Content Identifier (CID)}, come già discusso precedentemente il CID è un hash crittografico che identifica univocamente un basandosi sul suo contenuto. In questo modo, ogni blocco può essere identificato in modo univoco e, se necessario, recuperato dalla rete IPFS. Inoltre, tramite l'utilizzo di CID, è possibile verificare l'integrità dei dati, infatti, se anche un singolo bit del blocco viene modificato, il CID cambia completamente. In aggiunta, è possibile ottenere un CID per una cartella, in questo caso il CID è calcolato in base ai CID dei blocchi che la compongono. Quest'ultima funzionalità risulta essere molto utile in collaborazione con lo standard ERC721Metadata, analizzato nel capitolo \hyperref[sec:erc721]{\textit{ERC721}}. \cite{ipfs}
+
+Essendo IPFS un sistema peer-to-peer, i dati sono distribuiti tra i nodi della rete beneficiando di una maggiore disponibilità e ridondanza. Questo permette di avere un sistema più affidabile e resiliente rispetto ad un sistema centralizzato. Infatti, IPFS risulta essere un valido strumento utilizzato in parallelo alle reti blockchain, in quanto, come già precedentemente elencato, permette di ridurre i costi di archiviazione e allo stesso tempo consente di mantenere un alto livello di affidabilità. \cite{ipfs}

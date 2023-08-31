@@ -1,0 +1,49 @@
+\subsection{Meccanismi di consenso}
+\label{sec:consensoDistribuito}
+Nel seguente capitolo verranno tre meccanismi di consenso distribuito, i quali sono alla base delle blockchain.
+
+\subsubsection{PoW}
+\label{sec:PoW}
+Utilizzato da Bitcoin e in precedenza da Ethereum il \textit{Proof of work (PoW)} o \textit{Mining} è un meccanismo che si basa sul lavoro computazionale di computer. 
+Al riempimento di un blocco, il primo nodo che riuscirà a creare un hash che soddisfa dei vincoli e una \textit{difficulty} potrà condividere il nuovo blocco con gli altri nodi. Essi verificheranno che il nuovo blocco sia corretto. successivamente questo verrà aggiunto alla catena (blockchain). \cite{binance-pow}
+
+Perciò, il lavoro dei miner è di riuscire a creare un hash con i dati presenti nel blocco.
+Essendo il contenuto presente non modificabile, allo scopo di ottenere un hash diverso, è presente un valore variabile chiamato \textit{nonce} che ad ogni tentativo di hashing viene modificato.
+
+Una volta che il nuovo blocco è stato validato, il miner che ha trovato l'hash corretto viene solitamente remunerato con delle criptovalute native alla blockchain. \cite{binance-pow}
+
+Essendo un lavoro computazionale dispendioso, dove i piccoli miner non riusciranno mai a calcolare l'hash necessario per primi, possono unire le forze in delle \textit{mining pool}, dove più individui condivido il potere computazionale ed in caso di vincita si divideranno in maniera proporzionale il valore ottenuto. \cite{bitpanda-miningPool}
+
+Parte della sicurezza di nel meccanismo di consenso PoW risiede nella difficoltà del calcolo di un nuovo hash, perciò si può confermare che finché è presente una distribuzioni omogenea dei validatori la rete è sicura.
+Nel momento in cui, una singola entità riesca ad ottenere più del 50\% della capacità di calcolo totale nella rete (anche noto come \textit{hasing rate}), quest'ultima avrebbe una probabilità di riuscire a calcolare per prima il nuovo hash e verifando in autonomia il nuovo blocco, inserendo transazioni non veritiere. Questo è noto come \textit{51\% attack}. \cite{coindesk-51attack}
+
+\subsubsection{PoS}
+\label{sec:PoS}
+
+Il \textit{Proof of stake (PoS)} è un meccanismo di consenso dove i validatori dei nuovi blocchi sono selezionati in base alla quantità di criptovalute che hanno in \textit{staking}.
+Il termine staking si riferisce al processo in cui gli utenti bloccano una quantità di criptovaluta per partecipare alla validazione dei blocchi sulla blockchain. In cambio del loro contributo, ricevono ricompense nella criptovaluta nativa al termine di ogni validazione. Questo processo aiuta a mantenere la sicurezza e la decentralizzazione della rete. \cite{vitalik-pos}
+
+In contrasto al PoW, nel PoS quando un blocco deve essere validato, viene scelto un validatore in base ad una metodologia prefissata. Alcuni esempi sono: selezione random, random ma con probabilità proporzionale ai coin in stake, basato su anzianità, … \cite{ethereum-pos}
+    
+Il validatore scelto invierà la nuova versione della blockchain con il nuovo blocco validato e solo dopo la conferma degli altri nodi validatori la blockchain verrà aggiornata. \newline 
+Nel meccanismo di PoW la tempistica di aggiunta di un nuovo blocco può essere variabile, vista la difficoltà di creare l'hash, mentre per il PoS il tempo di ogni nuovo blocco è prefissato. \cite{ethereum-pos}
+
+Inoltre, in questo meccanismo di consenso è più redditizio compiere il proprio lavoro in modo onesto, dato che in caso di tentativo di truffa con la proposta di un blocco non valido viene inflitta una punizione. \cite{vitalik-pos}
+
+Il validator può essere punito tramite uno \textit{slashing}, dove vengono detratti parte dei coin in stake oppure tramite un \textit{jailing}, nel quale il validatore viene messo in una blacklist e per un periodo di tempo non potrà effettuare il suo lavoro.
+In aggiunta, quando un validatore vorrà finire la sua mansione è previsto un tempo prefissato di uscita, così che possa essere verificato che abbia svolto correttamente il suo compito. \cite{vitalik-pos}
+
+\subsubsection{PoA}
+I meccanismi di \textit{Proof of Authority} (PoA) sono una famiglia di algoritmi di consenso per permissioned blockchain (blockchain usate in ambiti privati alle quali si può accedere solo tramite invito). \cite{permissioned-blockchain}
+L'importanza di questi meccanismi di consenso è data dal miglioramento delle performance rispetto agli algoritmi BFT; questo come risultato di uno scambio meno intenso di messaggi. \cite{PoA-paper} 
+
+Gli algoritmi PoA si basano su un set di nodi detti \textit{authorities}.
+Questi sono identificati da uno unique id e sono scelti arbitrariamente da un'entità fidata. A differenza degli algoritmi PoS, lo staking non avviene tramite coin ma attraverso la reputazione stessa del validatore.
+Il consenso è determinato dall'unanimità di \textit{N/2 + 1} validatori, dove \textit{N} rappresenta la grandezza del loro set.
+Dal momento che i nodi validatori sono a loro volta entità fidate, i meccanismi PoA offrono una resistenza eccellente a \textit{51\% attack}. 
+Questo perché, a differenza dei meccanismi PoW dove un'entità malevola deve riuscire ad ottenere il 51\% della potenza computazionale della rete, in un meccanismo PoA un attaccante deve ottenere il controllo del 51\% dei nodi. \cite{51_attack_PoA} 
+
+Questa famiglia di algoritmi non si basa sulla soluzione di puzzle, come accade per i meccanismi di consenso PoW, pertanto non richiede una attrezzatura altamente performante. Oltre a necessitare di meno potenza energetica e di calcolo, ha una maggiore velocità di validazione. \cite{51_attack_PoA}
+
+La difficoltà nel selezionare nodi fidati rappresenta una forte limitazione per i meccanismi PoA, che a causa del ridotto insieme di validatori risultano essere efficienti solo all'interno di blockchain private. L'utilizzo di tali algoritmi per il consenso in blockchain decentralizzate è quindi sconsigliato.
+

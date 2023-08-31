@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadImage renders correctly with currentImage 1`] = `
+<div>
+  <div
+    class="chakra-form-control css-0"
+    role="group"
+  >
+    <label
+      class="chakra-form__label css-uvho5g"
+      for="image"
+      id="field-:r0:-label"
+    >
+      Image
+      <span
+        aria-hidden="true"
+        class="chakra-form__required-indicator css-0"
+        role="presentation"
+      >
+        *
+      </span>
+    </label>
+    <div
+      class="chakra-aspect-ratio css-oj014t"
+    >
+      <img
+        alt="image"
+        class="chakra-image css-0"
+      />
+      <div
+        class="css-1lzlcxg"
+        data-testid="delete-button"
+      >
+        <svg
+          fill="#FF4500"
+          height="50%"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="50%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`UploadImage renders correctly without currentImage 1`] = `
+<div>
+  <div
+    class="chakra-form-control css-0"
+    role="group"
+  >
+    <label
+      class="chakra-form__label css-uvho5g"
+      for="image"
+      id="field-:r1:-label"
+    >
+      Image
+      <span
+        aria-hidden="true"
+        class="chakra-form__required-indicator css-0"
+        role="presentation"
+      >
+        *
+      </span>
+    </label>
+    <div
+      class="chakra-aspect-ratio css-oj014t"
+    >
+      <div
+        class="chakra-input__group css-bx0blc"
+        data-group="true"
+      >
+        <input
+          accept="image/*"
+          data-testid="image-input"
+          id="image"
+          placeholder="image"
+          style="display: none;"
+          type="file"
+        />
+        <img
+          class="chakra-image css-glhh6s"
+          data-testid="image-placeholder"
+          src="placeholder.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimplifiedAddress renderAddress 1`] = `
+<div>
+  <p
+    class="chakra-text css-0"
+  >
+    0x1234...7890
+  </p>
+</div>
+`;
+
+exports[`SimplifiedAddress renderAddressWithTokenId 1`] = `
+<div>
+  <p
+    class="chakra-text css-0"
+  >
+    0x1234...7890
+    /
+    123
+  </p>
+</div>
+`;

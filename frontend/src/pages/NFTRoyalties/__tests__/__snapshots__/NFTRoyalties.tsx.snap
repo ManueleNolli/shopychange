@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NFTRoyalties render successfully 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-b93e9j"
+    >
+      <h2
+        class="chakra-heading css-0"
+      >
+        Royalties token 
+        TokenName
+      </h2>
+      <h2
+        class="chakra-heading css-odz94x"
+      />
+    </div>
+    <div
+      class="css-wjed84"
+    >
+      <div
+        class="css-0"
+      >
+        <form
+          action="#"
+        >
+          <div
+            class="css-fe3jho"
+          >
+            <label
+              class="chakra-form__label css-uvho5g"
+            >
+              Royalties
+            </label>
+            <div
+              class="css-bj7zsy"
+            >
+              <div
+                class="css-1so8qpg"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <input
+                    class="chakra-input css-0"
+                    id="royalties[0].receiver"
+                    name="royalties[0].receiver"
+                    placeholder="Receiver"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="css-17xejub"
+              />
+              <div
+                class="css-18lv6ah"
+              >
+                <div
+                  class="chakra-form-control css-0"
+                  role="group"
+                >
+                  <div
+                    class="chakra-numberinput css-e69dqy"
+                    value="10"
+                  >
+                    <input
+                      aria-readonly="false"
+                      aria-required="false"
+                      aria-valuemax="100"
+                      aria-valuemin="0"
+                      aria-valuenow="10"
+                      aria-valuetext="10"
+                      autocomplete="off"
+                      autocorrect="off"
+                      class="chakra-numberinput__field css-8atqhb"
+                      id="royalties[0].share"
+                      inputmode="decimal"
+                      name="royalties[0].share"
+                      pattern="[0-9]*(.[0-9]+)?"
+                      placeholder="Share (%)"
+                      role="spinbutton"
+                      type="text"
+                      value="10"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="css-a6plov"
+              >
+                <div
+                  class="css-cse5we"
+                >
+                  <svg
+                    aria-label="remove-royalty"
+                    fill="#FF4500"
+                    height="80%"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 24 24"
+                    width="80%"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-98x68k"
+            >
+              <div
+                class="css-913hcs"
+              >
+                <svg
+                  aria-label="add-royalty"
+                  baseProfile="tiny"
+                  fill="#228B22"
+                  height="100%"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  version="1.2"
+                  viewBox="0 0 24 24"
+                  width="100%"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 10h-4v-4c0-1.104-.896-2-2-2s-2 .896-2 2l.071 4h-4.071c-1.104 0-2 .896-2 2s.896 2 2 2l4.071-.071-.071 4.071c0 1.104.896 2 2 2s2-.896 2-2v-4.071l4 .071c1.104 0 2-.896 2-2s-.896-2-2-2z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="css-b93e9j"
+          >
+            <i
+              class="chakra-text css-mp67vj"
+            >
+              Make sure to withdraw all the funds before updating. If you don't, the funds may be lost
+            </i>
+            <button
+              class="chakra-button css-adqxy3"
+              data-testid="onClick-button"
+              style="white-space: initial;"
+              type="submit"
+            >
+              Update Royalties
+            </button>
+          </div>
+        </form>
+        <hr
+          aria-orientation="horizontal"
+          class="chakra-divider css-1lv7lm1"
+        />
+        <div
+          class="css-b93e9j"
+        >
+          <h2
+            class="chakra-heading css-1jx9xo4"
+          >
+            Other actions
+          </h2>
+          <button
+            class="chakra-button css-1vu7gvf"
+            data-testid="onClick-button"
+            style="white-space: initial;"
+            type="button"
+          >
+            Remove custom royalty
+          </button>
+          <div
+            data-testid="WithdrawRoyaltyButton"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

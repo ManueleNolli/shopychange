@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NFTPage renders successfully 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="css-gmuwbf"
+    >
+      <div
+        class="css-j7qwjs"
+      >
+        <h2
+          class="chakra-heading css-xi606m"
+        >
+          mockedName
+        </h2>
+        <div
+          class="css-gmuwbf"
+        >
+          <div
+            class="css-1om72w7"
+          >
+            <div
+              class="css-1ffdipv"
+            >
+              <img
+                class="chakra-image css-1ofc2kw"
+                src="mockedImage"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="css-s98few"
+        >
+          <div
+            data-testid="NFTOperations"
+          />
+        </div>
+        <div
+          class="css-gmuwbf"
+        >
+          <div
+            class="css-0"
+          >
+            <div
+              class="css-gckdu1"
+            >
+              <div
+                class="css-13i8xqh"
+              >
+                <h2
+                  class="chakra-heading css-fxkt9r"
+                >
+                  Description
+                </h2>
+                <p
+                  class="chakra-text css-2tly1c"
+                >
+                  mockedDescription
+                </p>
+              </div>
+              <div
+                class="css-1522hk"
+              >
+                <hr
+                  aria-orientation="vertical"
+                  class="chakra-divider css-12gj880"
+                />
+                <hr
+                  aria-orientation="horizontal"
+                  class="chakra-divider css-1upb9tn"
+                />
+              </div>
+              <div
+                class="css-13i8xqh"
+              >
+                <h2
+                  class="chakra-heading css-fxkt9r"
+                >
+                  Details
+                </h2>
+                <div
+                  class="chakra-table__container css-zipzvv"
+                >
+                  <table
+                    class="chakra-table css-0"
+                  >
+                    <tbody
+                      class="css-0"
+                    >
+                      <tr
+                        class="css-0"
+                      >
+                        <td
+                          class="css-o5g2qp"
+                        >
+                          Contract Address
+                        </td>
+                        <td
+                          class="css-r7o798"
+                        />
+                      </tr>
+                      <tr
+                        class="css-0"
+                      >
+                        <td
+                          class="css-o5g2qp"
+                        >
+                          Contract Name
+                        </td>
+                        <td
+                          class="css-r7o798"
+                        >
+                          mockedContractName
+                        </td>
+                      </tr>
+                      <tr
+                        class="css-0"
+                      >
+                        <td
+                          class="css-o5g2qp"
+                        >
+                          Contract Symbol
+                        </td>
+                        <td
+                          class="css-r7o798"
+                        >
+                          mockedContractSymbol
+                        </td>
+                      </tr>
+                      <tr
+                        class="css-0"
+                      >
+                        <td
+                          class="css-o5g2qp"
+                        >
+                          Token ID
+                        </td>
+                        <td
+                          class="css-r7o798"
+                        >
+                          0
+                        </td>
+                      </tr>
+                      <tr
+                        class="css-0"
+                      >
+                        <td
+                          class="css-o5g2qp"
+                        >
+                          Token Type
+                        </td>
+                        <td
+                          class="css-r7o798"
+                        />
+                      </tr>
+                      <tr
+                        class="css-0"
+                      >
+                        <td
+                          class="css-o5g2qp"
+                        >
+                          Owner
+                        </td>
+                        <td
+                          class="css-r7o798"
+                        />
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-10qd4hr"
+            />
+            <div
+              class="css-0"
+            >
+              <h2
+                class="chakra-heading css-fxkt9r"
+              >
+                Attributes
+              </h2>
+              <div
+                class="css-15q3nny"
+              >
+                <div
+                  class="css-cj6ru4"
+                >
+                  <div
+                    class="css-17xejub"
+                  />
+                  <div
+                    class="css-gmuwbf"
+                  >
+                    <p
+                      class="chakra-text css-qljqz"
+                    >
+                      mockedTraitType
+                    </p>
+                  </div>
+                  <div
+                    class="css-17xejub"
+                  />
+                  <div
+                    class="css-gmuwbf"
+                  >
+                    <p
+                      class="chakra-text css-0"
+                    >
+                      mockedValue
+                    </p>
+                  </div>
+                  <div
+                    class="css-17xejub"
+                  />
+                </div>
+              </div>
+            </div>
+            <hr
+              aria-orientation="horizontal"
+              class="chakra-divider css-10qd4hr"
+            />
+            <div
+              class="css-0"
+            >
+              <h2
+                class="chakra-heading css-fxkt9r"
+              >
+                History
+              </h2>
+              <div
+                data-testid="NFTHistoryTable"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

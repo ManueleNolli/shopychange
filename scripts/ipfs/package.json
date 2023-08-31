@@ -1,0 +1,18 @@
+{
+  "name": "nft-creator-uploader",
+  "version": "1.0.0",
+  "description": "NFT creator and uploader",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Manuele Nolli",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "dotenv": "^16.3.1",
+    "nft.storage": "^7.1.0"
+  }
+}

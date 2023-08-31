@@ -1,0 +1,24 @@
+@article{PoA-paper,
+  title={PBFT vs Proof-of-Authority: Applying the CAP Theorem to Permissioned Blockchain },
+  author={De Angelis, Stefano and Aniello, Leonardo and Baldoni, Roberto and Lombardi, Federico and Margheri, Andrea and Sassone, Vladimiro},
+  year={2017},
+  month=jan,
+  url={https://ceur-ws.org/Vol-2058/paper-06.pdf}
+}
+
+@book{warren2012renaissance,
+  title={The renaissance of legacy systems: method support for software-system evolution},
+  author={Warren, Ian},
+  year={2012},
+  publisher={Springer Science \& Business Media}
+}
+
+@article{belk2022money,
+  title={Money, possessions, and ownership in the Metaverse: NFTs, cryptocurrencies, Web3 and Wild Markets},
+  author={Belk, Russell and Humayun, Mariam and Brouard, Myriam},
+  journal={Journal of Business Research},
+  volume={153},
+  pages={198--205},
+  year={2022},
+  publisher={Elsevier}
+}
