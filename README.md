@@ -23,12 +23,7 @@ There are four components to the project:
 
 ## Getting Started
 
-1. Firstly, clone the repository:
-
-```bash
-git clone https://gitlab-edu.supsi.ch/dti-isin/giuliano.gremlich/progetti_bachelor/2022_2023/nolli_manuele/shopychange.git
-cd shopychange
-```
+1. Firstly, clone the repository
 
 2. Run docker-compose to start the containers of MongoDB
 
